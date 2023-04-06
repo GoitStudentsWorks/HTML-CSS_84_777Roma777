@@ -1,7 +1,7 @@
 .reviews-list {
-  
+  list-style: none;
 }
-.wrap-reviews {
+.slider-wrap {
   display: flex;
   gap: 24px;
 }
@@ -13,26 +13,35 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   margin-bottom: 91px;
-  
+
   color: #111111;
-  
 }
 .reviews-title > span {
-  color: #FD9222;
+  color: #fd9222;
 }
-.reviews-item {
+.swaper-slider {
+  position: relative;
   width: 360px;
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
   border-radius: 15px;
 }
+
+.coment-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .person-name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   text-align: center;
   margin-bottom: 24px;
+  padding-top: 56px;
 
   color: #111111;
 }
@@ -43,15 +52,77 @@
   text-align: center;
   margin: 0 auto;
   padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   letter-spacing: -0.02em;
   width: 312px;
 
   color: rgba(17, 17, 17, 0.7);
 }
 
+.review-btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 14px 40px;
+  gap: 14px;
+  margin: auto;
 
-/* @media screen and (min-width: 1200px) {
-  .container {
-    width: ;
-  }
-} */
+  width: 222px;
+  height: 50px;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #111111;
+  background-color: transparent;
+}
+
+.review-btn:hover,
+.review-btn:focus {
+  color: #ffffff;
+  background: #fd9222;
+}
+
+.slider-wrap {
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 28px;
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 360px;
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+}
+
+.swiper-pagination {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(17, 17, 17, 0.1);
+}
+
+.swiper-pagination:active {
+  width: 28px;
+  height: 13px;
+  border-radius: 8px;
+
+  background: #fd9222;
+}
+
+.swiper {
+}
