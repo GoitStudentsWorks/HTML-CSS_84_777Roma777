@@ -101,14 +101,21 @@ img {
         font-weight: 600;
         font-size: 18px;
         line-height: 1.22;
-       
-        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
     }
 
+    .item-to-hide {
+        display: block;
+    }
 
-
-
-
+    .top-sellers-content {
+        width: 407px;
+    }
 
 
 }
