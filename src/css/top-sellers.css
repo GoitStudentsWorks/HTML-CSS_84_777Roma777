@@ -33,7 +33,7 @@ img {
     margin-bottom: 32px;
 }
 
-.buy-now-btn {
+.buy-now-btn-mobile {
     display: block;
     width: 120px;
     height: 41px;
@@ -42,6 +42,75 @@ img {
     border-radius: 100px;
     border: none;
     margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .mobile-block {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+    }
+
+    .item-to-hide {
+        display: none;
+    }
+
+    .section-header {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 50px;
+    }
+
+    .top-sellers-pictures-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .content-button-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-sellers-content {
+        width: 306px;
+        
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+
+    .buy-now-btn {
+        display: block;
+        width: 162px;
+        height: 50px;
+        background-color: var(--orange);
+        color: white;
+        border-radius: 100px;
+        border: none;
+
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22;
+       
+        
+    }
+
+
+
+
+
+
+
 }
 
 
