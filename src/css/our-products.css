@@ -25,12 +25,16 @@
 }
 
 .our-products-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 335px;
     background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
     padding: 32px 52px;
     text-align: center;
+
 }
 
 .our-products-img {
@@ -74,4 +78,29 @@
     margin-left: auto;
 }
 
-/* слайдер */
+/* swiper */
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    left: 50%;
+}
+
+
+.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 10px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
