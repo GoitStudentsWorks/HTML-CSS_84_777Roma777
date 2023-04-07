@@ -5,22 +5,19 @@
   |============================
 */
 @import url('./reset.css');
-
-
+@import url('./footer.css');
 
 :root {
-  font-family: "Montserrat", "Roboto", sans-serif;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
-/* var() основні 3 кольори до макету  */
-  --black: #111111; 
-  --dark-fiolet: #1E1823;
-  --orange: #FD9222;
+  /* var() основні 3 кольори до макету  */
+  --black: #111111;
+  --dark-fiolet: #1e1823;
+  --orange: #fd9222;
 
-
-
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
