@@ -29,8 +29,8 @@
   }
 
   .section-position{
-    position: absolute;
-    bottom: 0;
+    /* тут опустив вниз блок */
+    padding-top: 380px;
   }
   
   .hero-desc {
@@ -42,6 +42,7 @@
     color: #FFFFFF;
   }
   .order-button {
+    display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
   }
@@ -133,6 +134,7 @@
 
 @media screen and (min-width: 768px) {
     .hero-section {
+    /* для hero мабуть не потрібно height, бо на десктопі занадто розширяє всю картинку */
         height: 890px;
         margin-top: 24px;
         margin-bottom: 50px;
@@ -147,6 +149,7 @@
     }
 
     .position{
+      /* прибираємо фіксовану ширину */
         width: 624px;
         display: flex;
         justify-content: space-between;
@@ -173,6 +176,10 @@
         color: #FFFFFF;
         margin-right: 14px;
         border: none; 
+    }
+
+    .scroll-wrapper {
+      margin-left: auto;
     }
 
     .scroll-link{
