@@ -1,0 +1,111 @@
+.how-its-made-main-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 32px;
+    padding-top: 72px;
+}
+
+
+
+.how-its-made-main-title span {
+    color: var(--orange);
+}
+
+.how-its-made-udervideo-content {
+    background: white;
+    border-radius: 15px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    padding: 20px 14px;
+}
+
+.how-its-made-udervideo-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 20px;
+}
+
+.how-its-made-udervideo-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    padding-left: 14px;
+}
+
+.how-its-made-udervideo-descr li {
+    position: relative;
+}
+
+.how-its-made-udervideo-descr li::before {
+    content: "";
+    background: #4C4C4C;
+    border: 1px solid #ECEDED;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    padding-right: 7px;
+    position: absolute;
+    top: 5px;
+    left: -16px;
+}
+
+.how-its-made-udervideo-descr>li:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.how-its-made-content {
+    padding-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+    .how-its-made-udervideo-content {
+        width: 614px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 32px;
+    }
+
+    .how-its-made-udervideo-title {
+        width: 350px;
+        margin-bottom: 28px;
+    }
+
+    .how-its-made-udervideo-descr li {
+        width: 464px;
+    }
+
+    .how-its-made-main-title {
+        margin-bottom: 50px;
+    }
+    .how-its-made-content {
+        padding-bottom: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+
+  }
