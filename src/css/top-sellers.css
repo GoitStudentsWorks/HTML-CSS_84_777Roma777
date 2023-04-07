@@ -19,7 +19,7 @@
 
 img {
     border-radius: 15px;
-    margin-bottom: 20px;
+    
 }
 
 .top-sellers-content-mobile {
@@ -31,6 +31,7 @@ img {
     line-height: 1.29;
     letter-spacing: -0.02em;
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 
 .buy-now-btn-mobile {
@@ -42,6 +43,7 @@ img {
     border-radius: 100px;
     border: none;
     margin: auto;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -72,6 +74,7 @@ img {
     .top-sellers-pictures-list {
         display: flex;
         gap: 16px;
+        margin-bottom: 32px;
     }
 
     .content-button-block {
