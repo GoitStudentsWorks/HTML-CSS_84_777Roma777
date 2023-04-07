@@ -9,9 +9,66 @@ color: var(--black);
 flex: none;
 order: 0;
 flex-grow: 0;
-font-family: var();
+font-family: 'Montserrat';
+margin-bottom: 32px;
+padding-top: 72px;
 }
 
 .how-its-made-main-title span {
     color: var(--orange);
 }
+
+.how-its-made-udervideo-content {
+background: white;
+border-radius: 15px;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+padding: 20px 14px;
+}
+
+.how-its-made-udervideo-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: var(--black);
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.how-its-made-udervideo-descr {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.02em;
+color: var(--black);
+padding-left: 14px;
+}
+
+.how-its-made-udervideo-descr li {
+    position: relative;
+}
+
+li::before {
+    content: "";
+    background: #4C4C4C;
+border: 1px solid #ECEDED;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    padding-right: 7px;
+position: absolute;
+top: 5px;
+left: -16px;
+  }
