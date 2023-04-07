@@ -3,14 +3,18 @@
     <div class="modal">
         <button class="button-close-review" data-modal-close type="button">
             <svg class="modal-review-svg" width="14px" height="14px">
-                <use href="../img/svg/icons.svg#icon-close-icon-converted"></use>
+                <use href="../img/svg/icons.svg#icon-close-modalka"></use>
             </svg>
         </button>
-        <h2 class="text">
+        <h2 class="text-modal-review">
             LEAVE A REVIEW ABOUT <span class="second-part-text">OUR CHOCOLATE</span>
         </h2>
         <form>
-            <label for="name" class="label-name"></label>
+            <input type="text" name="name" class="input-review" placeholder="Name">
+            <input type="email" name="email" class="input-review" placeholder="Email">
+            <input type="tel" name="tel" class="input-review" placeholder="Phone number">
+            <textarea name="text" id="text" placeholder="Enter text"></textarea>
+            <button type="submit" class="submit-form-review"></button>
         </form>
         </div>
 </div>

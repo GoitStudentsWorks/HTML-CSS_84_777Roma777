@@ -29,8 +29,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
   
-    width: 408px;
-    height: 584px;
+    width: 517px;
+    height: 631px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -53,5 +53,14 @@
   }
 
   .modal-review-svg {
-    fill: black;
+    fill: currentColor;
+  }
+
+  .text-modal-review {
+  }
+  .second-part-text {
+  }
+  .input-review {
+  }
+  .submit-form-review {
   }
