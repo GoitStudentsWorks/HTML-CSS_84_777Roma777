@@ -1,3 +1,4 @@
+
 .modal {
     opacity: 0;
     visibility: hidden;
@@ -6,14 +7,14 @@
     max-width: 609px;
 
     position: fixed;
-    top: 20%;
+    top: 35vh;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30;
 
     box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
     text-align: center;
-    padding: 30px;
+    padding: 48px;
     border-radius: 15px;
     background-color: #FAFAFA;
     transition: 0.3s all;    
@@ -21,19 +22,78 @@
 
 .modal-close-btn {
     
-        width: 28px;
-        height: 28px;
-        
-        position: absolute;
-        top: 31px;
-        right: 31px;
-        fill: black;
-        cursor: pointer;  
+    width: 28px;
+    height: 28px;
+    
+    position: absolute;
+    top: 31px;
+    right: 31px;
+    fill: black;
+    cursor: pointer;  
 }
 
 .modal.active,
 .overlay.active {
     opacity: 1;
     visibility: visible;
+}
+
+.order-heading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 32px;
+}
+
+.now {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.order-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.order-item {
+    width: 160px;
+    height: 196px;
+    background-color: white;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+}
+
+.order-modal-picture {
+    margin: 24px 20px 14px 20px;
+}
+
+select {
+    
+    appearance: none;
+    outline: none;
+    width: 96px;
+    height: 33px;
+
+    background-color: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 1.21;
+    text-align: center;
+    color: #111111;
 }
 
