@@ -1,29 +1,41 @@
+const el = document.querySelector('.my-element');
+
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
-    direction: 'horizontal',
-  // spaceBetween: 30,
-    center,
-    effect: 'fade',
-    loop: true,
-    mousewheel: {
-      invert: false,
+  direction: 'horizontal',
+  effect: 'fade',
+  loop: true,
+  mousewheel: {
+    invert: false,
   },
-
-  // If we need pagination
   pagination: {
-      el: '.swiper-pagination',
-      clickable:true,
-      
+    el: '.swiper-pagination',
+    clickable: true,
   },
-
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
-  // And if we need scrollbar
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+    }
+  },
+  slidesPerView: 2.5,
+  spaceBetween: 15,
 });
+
+if (el) {
+  const scrollbar = swiper.scrollbar;
+  const isHorizontal = swiper.isHorizontal();
+
+  scrollbar.el.classList.add(isHorizontal ? 'swiper-scrollbar-horizontal' : 'swiper-scrollbar-vertical');
+  scrollbar.dragEl.classList.add(isHorizontal ? 'swiper-scrollbar-drag-horizontal' : 'swiper-scrollbar-drag-vertical');
+} 
