@@ -1,1 +1,1 @@
-import './partials/swiper';
+import './js/swiper.js';
