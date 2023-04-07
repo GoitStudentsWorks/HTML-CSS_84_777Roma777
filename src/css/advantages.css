@@ -1,0 +1,26 @@
+.section {
+    padding: 20px 0;
+    background: #1E1823;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+.advantages-icon {
+    fill:#FD9222;
+}
+
+.advantages-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.advantages-subtitle {
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
