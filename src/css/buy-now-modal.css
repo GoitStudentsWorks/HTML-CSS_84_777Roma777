@@ -122,7 +122,6 @@ select {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 18px;
-    
 }
 
 .first-name-label {
@@ -144,12 +143,47 @@ select {
 
 input {
    height: 66px;
+
    border: 1.5px solid rgba(17, 17, 17, 0.05);
    border-radius: 13px;
    background-color: #FAFAFA;
+
+   padding-left: 24px;
+
+   font-family: 'Montserrat';
+   font-size: 18px;
+   line-height: 1.22;
+   letter-spacing: -0.02em;
+   color: rgba(64, 64, 64, 0.3);
+   outline-color: var(--orange);
 }
 
-label {margin-bottom: 8px;}
+label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+textarea {
+    height: 137px;
+    resize: none;
+
+    background-color: #FAFAFA;
+    padding: 22px 24px 93px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 13px;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+    color: rgba(64, 64, 64, 0.3);
+    outline-color: var(--orange);
+}
+
+
 
 
 
