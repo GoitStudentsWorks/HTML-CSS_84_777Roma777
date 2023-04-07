@@ -1,0 +1,39 @@
+.modal {
+    opacity: 0;
+    visibility: hidden;
+
+    width: 100%;
+    max-width: 609px;
+
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #FAFAFA;
+    transition: 0.3s all;    
+}
+
+.modal-close-btn {
+    
+        width: 28px;
+        height: 28px;
+        
+        position: absolute;
+        top: 31px;
+        right: 31px;
+        fill: black;
+        cursor: pointer;  
+}
+
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
