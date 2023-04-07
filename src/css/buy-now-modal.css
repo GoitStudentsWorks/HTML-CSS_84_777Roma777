@@ -122,20 +122,34 @@ select {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 18px;
+    
 }
 
 .first-name-label {
     position: absolute;
     transform: translateY(-100%);
+    
 }
 
 .first-name-input {
     width: 50%;
+    margin-right: 22px;
+    margin-top: 8px;
 }
 
 .last-name-input {
-    width: 50%;
+    width: calc(50% - 22px);
+    margin-top: 8px;
 }
+
+input {
+   height: 66px;
+   border: 1.5px solid rgba(17, 17, 17, 0.05);
+   border-radius: 13px;
+   background-color: #FAFAFA;
+}
+
+label {margin-bottom: 8px;}
 
 
 
