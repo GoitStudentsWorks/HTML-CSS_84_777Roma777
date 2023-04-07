@@ -6,8 +6,10 @@
 */
 @import url('./reset.css');
 @import url('./review.css');
-:root  {
-  font-family: 'Montserrat', 'Roboto', sans-serif;
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -16,6 +18,7 @@
   --dark-fiolet: #1e1823;
   --orange: #fd9222;
 
+  color: #111111;
   background-color: #fafafa;
 
   font-synthesis: none;
