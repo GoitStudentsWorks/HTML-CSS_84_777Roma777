@@ -5,9 +5,13 @@ line-height: 24px;
 text-align: center;
 letter-spacing: -0.03em;
 text-transform: uppercase;
-color: #111111;
+color: var(--black);
 flex: none;
 order: 0;
 flex-grow: 0;
 font-family: var();
+}
+
+.how-its-made-main-title span {
+    color: var(--orange);
 }
