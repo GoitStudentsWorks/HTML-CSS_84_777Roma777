@@ -1,0 +1,13 @@
+.how-its-made-main-title {
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #111111;
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: var();
+}
