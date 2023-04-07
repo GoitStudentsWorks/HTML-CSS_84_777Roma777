@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .container {
   max-width: 375px;
   padding-left: 20px;

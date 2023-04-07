@@ -7,7 +7,9 @@
 @import url('./reset.css');
 
 :root {
-  font-family: 'Montserrat', 'Roboto', sans-serif;
+
+  font-family: "Montserrat", sans-serif;
+
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -16,7 +18,10 @@
   --dark-fiolet: #1e1823;
   --orange: #fd9222;
 
-  background-color: #fafafa;
+
+  color: #111111;
+  background-color: #FAFAFA;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
