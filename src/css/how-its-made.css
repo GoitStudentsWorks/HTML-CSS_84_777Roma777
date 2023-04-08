@@ -81,6 +81,18 @@
     padding-bottom: 72px;
 }
 
+.how-its-made-wideo {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/svg/howitsmade/mobile-video-bcground.jpg);
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
     .how-its-made-udervideo-content {
         width: 614px;
@@ -100,12 +112,52 @@
 
     .how-its-made-main-title {
         margin-bottom: 50px;
+        padding-top: 100px;
     }
     .how-its-made-content {
         padding-bottom: 100px;
     }
+
+    .how-its-made-wideo {
+        width: 614px;
+        height: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+    }
   }
   
   @media screen and (min-width: 1200px) {
+    .how-its-made-wideo {
+        width: 600px;
+        height: 400px;
+        display: flex;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .how-its-made-udervideo-content {
+        width: 516px;
+        padding: 32px;
+        margin-right: 0;
+        margin-left: 0;
+        height: 400px;
+    }
+    .how-its-made-content {
+        padding-bottom: 128px;
+        display: flex;
+    }
+
+    .how-its-made-udervideo-descr>li:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .how-its-made-udervideo-descr li {
+        width: 425px;
+    }
+
+    .how-its-made-main-title {
+        padding-top: 128px;
+    }
 
   }
