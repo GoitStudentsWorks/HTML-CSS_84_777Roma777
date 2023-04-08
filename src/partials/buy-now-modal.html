@@ -143,13 +143,14 @@
 
     <div class="form-field-modal">
       <label for="phone">Phone number</label>
-      <input
-        type="phone"
-        id="phone"
-        name="phone"
-        placeholder="Phone number"
-        required
-      />
+      <div>
+          <span class="country-code">
+           <svg class="flag" width="32" height="24">
+            <use href="../img/svg/icons.svg#icon-ukraine"></use>
+           </svg>+380
+          </span>
+        <input class="phone" type="phone" id="phone" name="phone" placeholder="Phone number" required/>
+      </div>
     </div>
 
     <div class="form-field-modal">
@@ -173,7 +174,7 @@
       ></textarea>
     </div>
 
-    <button class="modal-submit-btn" type="submit">Submit</button>
+    <button class="modal-submit-btn js-modal-close" data-modal="1" type="submit">Submit</button>
   </form>
 </div>
 

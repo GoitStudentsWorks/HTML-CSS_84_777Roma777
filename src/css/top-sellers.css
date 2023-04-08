@@ -17,9 +17,8 @@
     color: var(--black);
 }
 
-img {
+.border{
     border-radius: 15px;
-    
 }
 
 .top-sellers-content-mobile {

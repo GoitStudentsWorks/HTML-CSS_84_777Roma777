@@ -21,7 +21,7 @@
     max-width: 609px;
 
     position: fixed;
-    top: 35vh;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30;
@@ -127,7 +127,6 @@ select {
 .first-name-label {
     position: absolute;
     transform: translateY(-100%);
-    
 }
 
 .first-name-input {
@@ -149,14 +148,56 @@ input {
    background-color: #FAFAFA;
 
    padding-left: 24px;
-
    font-family: 'Montserrat';
    font-size: 18px;
+   font-weight: 500;
    line-height: 1.22;
    letter-spacing: -0.02em;
-   color: rgba(64, 64, 64, 0.3);
+   color: #000000;
    outline-color: var(--orange);
 }
+
+.phone {
+    padding-left: 177px;
+    width: 100%;
+}
+
+.phone-select {
+    position: absolute;
+    border: none;
+}
+
+.country-code {
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    left: 24px;
+    top: 50%;
+
+    font-family: 'Montserrat';
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.country-code::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 125px;
+    border:  #E2E2E2 solid 1px;
+    height: 24px;
+
+}
+
+.flag {
+    margin-right: 18px;
+}
+
+
 
 label {
     margin-bottom: 8px;
@@ -167,7 +208,7 @@ label {
 }
 
 textarea {
-    height: 137px;
+    height: 100%;
     resize: none;
 
     background-color: #FAFAFA;
@@ -176,14 +217,24 @@ textarea {
     border-radius: 13px;
 
     font-family: 'Montserrat';
+    font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: -0.02em;
-    color: rgba(64, 64, 64, 0.3);
+    color: #000000;
     outline-color: var(--orange);
 }
 
-
+.modal-submit-btn {
+    display: block;
+    width: 133px;
+    height: 45px;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 100px;
+    border: none;
+    margin-top: 18px;
+    }
 
 
 
