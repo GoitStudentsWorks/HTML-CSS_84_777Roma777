@@ -3,7 +3,6 @@
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
-  /* var() основні 3 кольори до макету  */
     --black: #111111; 
     --dark-fiolet: #1E1823;
     --orange: #FD9222;
@@ -49,6 +48,7 @@ h1, h2, h3, p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .components-title {
@@ -71,7 +71,6 @@ span {
     line-height: 1.29;
     text-align: center;
     letter-spacing: -0.02em;
-    margin-bottom: 32px;
 }
 .component-list {
     display: flex;
@@ -239,6 +238,10 @@ span {
             width: 768px;
         }
 
+        .components-head {
+            margin-bottom: 50px;
+        }
+
         .components-title {
             max-width: 411px;
             text-align: center;
@@ -248,7 +251,6 @@ span {
         .components-text {
             text-align: center;
             max-width: 486px;
-            margin-bottom: 50px;
         }
 
         .component-list {
