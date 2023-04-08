@@ -22,31 +22,24 @@
     color: var(--orange);
 }
 
-.our-products-list {
-    display: flex;
-}
+.our-products-list {}
 
 .our-products-link {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
     width: 335px;
     background: #FFFFFF;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
     padding: 32px 52px;
     text-align: center;
-
 }
 
-
 .our-products-img {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 8px;
-    max-width: none;
 }
 
 .our-products-name {
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 18px;
     line-height: 1.33;
@@ -58,7 +51,6 @@
 
 .our-products-text {
     margin-bottom: 18px;
-    font-family: 'Montserrat';
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
@@ -67,7 +59,6 @@
 }
 
 .our-products-price {
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
@@ -81,95 +72,81 @@
     margin-left: auto;
 }
 
-/* swiper */
-
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-    left: 50%;
+/* -----------swiper----------- */
+.container .swiper {
+    position: inherit;
 }
 
-.swiper-pagination {
+.container .swiper .swiper-pagination {
+    top: 88%;
+}
+
+/* стилі пагінації */
+.swiper .swiper-pagination {
+    bottom: 0;
     display: flex;
     justify-content: center;
     gap: 13px;
 }
 
-.swiper-pagination-bullets .swiper-pagination-bullet-active {
-    width: 28px;
-    height: 13px;
-    transform: scale(1.5);
-    border-radius: 10px;
-    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-    top: 93%;
-    background-color: var(--orange);
-}
-
-.our-products-list>.swiper-pagination>.swiper-pagination-bullet {
+/* булети */
+.swiper .swiper-pagination-bullet {
     width: 13px;
     height: 13px;
-    background: rgba(17, 17, 17, 0.35);
+    background-color: rgba(17, 17, 17, 0.3);
 }
 
-.our-products-list>.swiper-pagination>.swiper-pagination-bullet-active {
+/* зміна вигляду активного булета */
+.swiper .swiper-pagination-bullet-active {
     width: 28px;
-    height: 13px;
-    transition: 250ms cubic-bezier(.33, .76, .55, 1.37);
-    background-color: var(--orange)
-}
-
-.swiper-pagination-bullets {
-    --swiper-pagination-top: 88%;
+    border-radius: 25px;
+    background-color: var(--orange);
+    transition: 250ms cubic-bezier(.17, .67, .83, .67);
 }
 
 /* ----------------------/MOBILE-VERSION---------------------- */
-
-.swiper-scrollbar {
-    height: 4px;
-    position: relative;
-    -ms-touch-action: none;
-    background: rgba(0, 0, 0, 0.1);
-}
-
-.swiper-scrollbar-drag {
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    -ms-touch-action: none;
-    background: #000;
-}
-
-.swiper-scrollbar-cursor-drag {
-    cursor: move;
-}
-
-
-.swiper-slide {
-    width: calc((100% - 45px) / 2.5);
-}
-
-@media (min-width: 768px) {
-    .swiper-slide {
-
-        width: calc((100% - 75px) / 2.5);
-    }
-}
 
 
 
 
 /* ----------------------TABLET-VERSION---------------------- */
-@media screen and(min-width:768px) {
-    .swiper-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+@media screen and (min-width: 768px) {
+    .our-producs {}
+
+    .container {
+        padding-right: 0;
     }
 
-    .swiper-slide {
-        width: calc(33.33% - 10px);
+    .our-products-title {
+        margin-bottom: 50px;
     }
+
+    .our-products-title-color {}
+
+    .swiper {}
+
+    .our-products-list {}
+
+    .swiper-wrapper {}
+
+    .our-products-link {
+        width: 270px;
+        padding: 32px 20px;
+    }
+
+    .swiper-slide {}
+
+    .our-products-img {}
+
+    .our-products-name {}
+
+    .our-products-text {}
+
+    .our-products-price {}
+
+    /* .swiper-pagination {
+        bottom: 0;
+    } */
 
     .our-producs {}
 
@@ -179,9 +156,9 @@
 
     .our-products-title-color {}
 
-    .our-products-list {}
-
     .swiper {}
+
+    .our-products-list {}
 
     .swiper-wrapper {}
 
