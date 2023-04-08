@@ -31,10 +31,10 @@
 
   width: 517px;
   min-height: 631px;
-  background: #fcfcfc;
+  background: #FAFAFA;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 15px;
 }
 
 .button-close-review {
@@ -50,6 +50,9 @@
   border: none;
   width: 28px;
   height: 28px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-review-svg {
@@ -63,10 +66,11 @@
 .button-close-review:focus {
   background-color: #fcf1e0;
   color: rgba(241, 101, 41, 1);
-  border-radius: 50%;
+  
 }
 
 .container-review {
+  
   padding: 40px;
 }
 
@@ -105,6 +109,12 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-review:focus, .input-review-textarea:focus {
+  outline: none;
+  border: 1px solid var(--orange);
 }
 
 .input-review::placeholder,
@@ -114,7 +124,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-
   display: flex;
   align-items: center;
   letter-spacing: -0.02em;
@@ -122,34 +131,70 @@
   color: rgba(64, 64, 64, 0.3);
 }
 
-.input-review-textarea {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 22px 24px 93px;
-  gap: 40px;
-  resize: none;
-  width: 437px;
-  height: 137px;
 
-  border: 1.5px solid rgba(17, 17, 17, 0.05);
-  border-radius: 13px;
+
+
+
+.review-label-textarea {
   margin-bottom: 18px;
 }
 
-.tel {
-  position: relative;
+.input-review-textarea {
+  padding-top: 22px;
+  padding-left: 24px;
+  padding-right: 24px;
+  resize: none;
+  width: 100%;
+  height: 137px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
+
 .review-tel {
   position: relative;
 }
 
-.review-ukraine {
-  position: absolute;
+.icons-review {
+  
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 20px 0px 0px;
+gap: 18px;
+
+width: 113px;
+height: 32px;
+
+background: #FAFAFA;
+box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
+
+position: absolute;
+  top: 17px;
+  left: 24px;
 }
+.tel {
+  padding-left: 177px;
+}
+
+
+
 .phone-start {
-  position: absolute;
-}
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+  
+} 
 
 
 .submit-form-review {
@@ -167,4 +212,26 @@
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-form-review:hover, .submit-form-review:focus {
+  background-color: #FCF1E0;
+  color: var(--orange);
+}
+
+@media screen and (max-width: 767px) {
+  .modal{
+    
+
+  }
+  .container-review {
+  
+  }
+
+  .review-form {
+   
+  }
+
 }
