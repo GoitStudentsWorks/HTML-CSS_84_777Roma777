@@ -9,7 +9,7 @@
 
 
 :root {
-  font-family: "Montserrat", "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -19,7 +19,7 @@
   --orange: #FD9222;
 
 
-
+  color: #111111;
   background-color: #FAFAFA;
 
   font-synthesis: none;
