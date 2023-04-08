@@ -47,6 +47,10 @@
 		letter-spacing: -0.02em;
 		text-align: left;
 		vertical-align: top;
+
+		transition-property: color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	.footer-contacts-item:last-child {
 		margin-top: 4px;
@@ -74,10 +78,19 @@
 		line-height: 1.14;
 		letter-spacing: -0.02em;
 		text-align: left;
+
+		transition-property: color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	.footer-color {
 		padding-top: 32px;
 		padding-bottom: 32px;
+	}
+	.social-media-icon {
+		width: 20px;
+		height: 20px;
+		stroke: rgba(255, 255, 255, 1);
 	}
 }
 /*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
@@ -123,11 +136,26 @@
 
 	.social-media-icon {
 		stroke: rgba(255, 255, 255, 1);
+
+		width: 24px;
+		height: 24px;
+
+		transition-property: stroke;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	.social-media-icon:focus,
 	.social-media-icon:hover {
 		stroke: rgba(253, 146, 34, 1);
+	}
+	/* --------------------------add effects to nav links------------------------------- */
+
+	.footer-nav-link:hover,
+	.footer-nav-link:focus,
+	.footer-contacts-item:hover,
+	.footer-contacts-item:focus {
+		color: rgba(253, 146, 34, 1);
 	}
 }
 /* 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888_ */
