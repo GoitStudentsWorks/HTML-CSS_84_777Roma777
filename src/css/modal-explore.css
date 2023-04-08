@@ -28,6 +28,7 @@ body{
     border-radius: 15px;
     background-image: url(../img/modal-explore/choco-modal-1x.jpg);
     background-repeat: no-repeat;
+   
 }
 
 @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
@@ -39,6 +40,28 @@ body{
 .position-explore{
     position: absolute;
     bottom: 0;
+    left: 40px;
+    right: 40px;
+}
+
+.modal-icon{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border:1 solid #FAFAFA;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.explore-svg{
+  
+    fill: #ffffff;
+}
+
+.explore-svg:is(:hover, :focus) {
+    fill: #FD9222;
 }
 .modal-explore-title {
     max-width: 298px;
@@ -68,6 +91,11 @@ body{
     border-radius: 30px;
     padding-left: 24px;
     margin-right: 8px;
+    transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.explore-input:hover, .explore-input:focus {
+    border: 1.5px solid rgba(253, 146, 34, 1);
 }
 .modal-explore-type {
     color: #ffffff;
@@ -77,4 +105,9 @@ body{
     border: 0;
     right: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-explore-type:is(:hover, :focus) {
+    background-color: #FCF1E0;
+    color: rgba(253, 146, 34, 1);
 }
