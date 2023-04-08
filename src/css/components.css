@@ -1,41 +1,7 @@
-:root {
-    font-family: "Montserrat", "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    --black: #111111; 
-    --dark-fiolet: #1E1823;
-    --orange: #FD9222;
-}  
-
-body {
-    background-color: #FAFAFA;
-    font-family: "Montserrat", "Roboto", sans-serif;
-    letter-spacing: 0.02em;
-}
-
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
-
 .components {
    padding: 72px 0;
 }
+
 .components-container {
     width: 375px;
     padding-left: 20px;
@@ -203,6 +169,7 @@ span {
         border-radius: 35px;
     }
     .flip-card-description {
+        
         text-align: left;
         font-weight: 400;
         font-size: 14px;
@@ -304,6 +271,7 @@ span {
 
         .flip-card-back {
             padding: 20px;
+            position: relative;
             overflow: auto;
         }
       }
