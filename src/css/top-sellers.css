@@ -50,7 +50,6 @@
 .buy-now-btn-mobile:hover {
     background-color: rgba(252, 241, 224, 1);
     color: var(--orange);
-    
 }
 
 @media screen and (min-width: 768px) {

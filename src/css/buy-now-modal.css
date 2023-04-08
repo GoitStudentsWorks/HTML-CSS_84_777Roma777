@@ -378,4 +378,10 @@
         width: 133px;
         height: 45px;
     }
+
+    .modal-submit-btn:hover,
+    .modal-submit-btn:focus {
+        background-color: rgba(252, 241, 224, 1);
+        color: var(--orange);
+    }
         }
