@@ -77,7 +77,6 @@ slideToClickedSlide: true,
   // (виставити значення slidesPerView: 'auto')
   breakpoints: {
     375: {
-      
       slidesPreView: 1,
     },
     768: {
