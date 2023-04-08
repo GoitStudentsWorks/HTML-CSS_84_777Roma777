@@ -1,10 +1,7 @@
 <div class="modal" data-modal="1">
   <div>
-
     <svg class="modal-close-btn js-modal-close" width="28" height="28">
-      <use
-        href="../img/svg/icons.svg#icon-close-modalka"
-      ></use>
+      <use href="../img/svg/icons.svg#icon-close-modalka"></use>
     </svg>
 
     <h2 class="order-heading">BUY <span class="now">NOW</span></h2>
@@ -35,7 +32,7 @@
           />
         </picture>
 
-        <select name="weight" id="weight">
+        <select name="weight">
           <option value="100g">100 g</option>
           <option value="200g">200 g</option>
           <option value="300g">300 g</option>
@@ -65,7 +62,7 @@
           />
         </picture>
 
-        <select name="weight" id="weight">
+        <select name="weight">
           <option value="100g">100 g</option>
           <option value="200g">200 g</option>
           <option value="300g">300 g</option>
@@ -97,22 +94,24 @@
           />
         </picture>
 
-        <select name="weight" id="weight">
+        <select name="weight">
           <option value="100g">100 g</option>
           <option value="200g">200 g</option>
           <option value="300g">300 g</option>
         </select>
       </li>
-
     </ul>
   </div>
 
-<!-- MODAL FORM-->
+  <!-- MODAL FORM-->
 
   <form class="form">
     <div class="form-field-personal">
-      <label class="first-name-label" for="first-name">Personal information</label>
-      <input class="first-name-input"
+      <label class="first-name-label" for="first-name"
+        >Personal information</label
+      >
+      <input
+        class="first-name-input"
         type="text"
         id="first-name"
         name="first-name"
@@ -120,7 +119,8 @@
         pattern="[A-Za-zА-Яа-ІіЇїЄє]{1,30}"
         placeholder="Name"
       />
-      <input class="last-name-input"
+      <input
+        class="last-name-input"
         type="text"
         id="last-name"
         name="last-name"
@@ -142,14 +142,21 @@
     </div>
 
     <div class="form-field-modal">
-      <label for="phone">Phone number</label>
+      <label for="tel">Phone number</label>
       <div>
-          <span class="country-code">
-           <svg class="flag" width="32" height="24">
-            <use href="../img/svg/icons.svg#icon-ukraine"></use>
-           </svg>+380
-          </span>
-        <input class="phone" type="phone" id="phone" name="phone" placeholder="Phone number" required/>
+        <span class="country-code">
+          <svg class="flag" width="32" height="24">
+            <use href="../img/svg/icons.svg#icon-ukraine"></use></svg
+          >+380
+        </span>
+        <input
+          class="phone"
+          type="tel"
+          id="tel"
+          name="tel"
+          placeholder="Phone number"
+          required
+        />
       </div>
     </div>
 
@@ -177,7 +184,13 @@
       ></textarea>
     </div>
 
-    <button class="modal-submit-btn js-modal-close" data-modal="1" type="submit">Submit</button>
+    <button
+      class="modal-submit-btn js-modal-close"
+      data-modal="1"
+      type="submit"
+    >
+      Submit
+    </button>
   </form>
 </div>
 

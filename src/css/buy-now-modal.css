@@ -190,7 +190,6 @@ input {
     left: 125px;
     border:  #E2E2E2 solid 1px;
     height: 24px;
-
 }
 
 .flag {
@@ -202,7 +201,6 @@ input {
     right: 24px;
     top: 50%;
 }
-
 
 
 label {
@@ -240,8 +238,4 @@ textarea {
     border-radius: 100px;
     border: none;
     margin-top: 18px;
-    }
-
-
-
-
+}
