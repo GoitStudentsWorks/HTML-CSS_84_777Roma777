@@ -197,6 +197,12 @@ input {
     margin-right: 18px;
 }
 
+.master-card-icon {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+}
+
 
 
 label {
