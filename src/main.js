@@ -1,1 +1,1 @@
-import ('./js/explore')
+import ('./js/explore.js')
