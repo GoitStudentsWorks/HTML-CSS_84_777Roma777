@@ -135,10 +135,8 @@
 	}
 
 	.social-media-icon {
-		stroke: rgba(255, 255, 255, 1);
-
-		width: 24px;
-		height: 24px;
+		width: 22px;
+		height: 22px;
 
 		transition-property: stroke;
 		transition-duration: 250ms;
@@ -165,5 +163,9 @@
 	}
 	.footer-social-media {
 		margin-left: 64px;
+	}
+	.social-media-icon {
+		width: 24px;
+		height: 24px;
 	}
 }
