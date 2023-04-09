@@ -40,6 +40,7 @@
         right: 14px;
         fill: black;
         cursor: pointer;
+        
     }
 
     .modal.active,
@@ -179,6 +180,7 @@
     .flag{
         position: absolute;
         width: 24px;
+        height: 18px;
         bottom: 14px;
         left: 18px;
     }
@@ -195,7 +197,6 @@
         line-height: 1.21;
         align-items: center;
         letter-spacing: -0.02em;
-    
         color: #000000;
     }
 
@@ -339,7 +340,8 @@
 
     .flag {
         width: 32px;
-        top: 24px;
+        height: 24px;
+        top: 21.8px;
         left: 24px;
     }
 
