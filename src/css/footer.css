@@ -93,11 +93,12 @@
 		stroke: rgba(255, 255, 255, 1);
 	}
 }
-/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 */
 
 @media screen and (min-width: 768px) {
 	.container {
 		max-width: 768px;
+		padding-left: 32px;
+    padding-right: 32px;
 	}
 	.footer-color {
 		padding: 50px 32px;
