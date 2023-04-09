@@ -77,6 +77,8 @@
     position: inherit;
 }
 
+
+
 .container .swiper .swiper-pagination {
     top: 88%;
 }
@@ -88,6 +90,8 @@
     justify-content: center;
     gap: 13px;
 }
+
+
 
 /* булети */
 .swiper .swiper-pagination-bullet {
@@ -178,3 +182,9 @@
 }
 
 /* ----------------------/TABLET-VERSION---------------------- */
+
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
