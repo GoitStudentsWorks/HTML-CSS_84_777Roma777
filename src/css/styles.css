@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./components.css');
 @import url('./top-sellers.css');
 @import url('./buy-now-modal.css');
 @import url('./how-its-made.css');
@@ -31,6 +32,7 @@
 
   --dark-fiolet: #1E1823;
   --orange: #FD9222;
+
 
 
   color: #111111;
