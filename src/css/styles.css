@@ -6,6 +6,13 @@
 */
 @import url('./reset.css');
 @import url('./review.css');
+@import url('./top-sellers.css');
+@import url('./buy-now-modal.css');
+@import url('./how-its-made.css');
+@import url('./our-products.css');
+@import url('./footer.css');
+
+
 
 :root {
   font-family: 'Montserrat', sans-serif;
@@ -15,12 +22,19 @@
   font-weight: 400;
   /* var() основні 3 кольори до макету  */
   --black: #111111;
+
   --dark-fiolet: #1e1823;
   --orange: #fd9222;
 
-  color: #111111;
-  background-color: #fafafa;
+  
 
+
+  --dark-fiolet: #1E1823;
+  --orange: #FD9222;
+
+
+  color: #111111;
+  background-color: #FAFAFA;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
