@@ -161,8 +161,9 @@ iframe {
         height: 400px;
         margin-right: auto;
         margin-left: auto;
+        
         display: flex;
-        margin-bottom: 0;
+    
         background: url(../img/svg/howitsmade/tablet-video-bcground.jpg);
     }
   }
