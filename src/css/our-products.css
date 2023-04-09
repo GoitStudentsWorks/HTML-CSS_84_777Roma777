@@ -1,0 +1,190 @@
+/* ----------------------MOBILE-VERSION---------------------- */
+.our-producs {
+    padding: 72px 0 105px 0;
+    position: relative;
+}
+
+.container {}
+
+.our-products-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.our-products-title-color {
+    color: var(--orange);
+}
+
+.our-products-list {}
+
+.our-products-link {
+    width: 335px;
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    padding: 32px 52px;
+    text-align: center;
+}
+
+.our-products-img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+
+.our-products-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 2px;
+}
+
+.our-products-text {
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.our-products-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--black);
+    background: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    padding: 8px 20px;
+    width: 97px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* -----------swiper----------- */
+.container .swiper {
+    position: inherit;
+}
+
+
+
+.container .swiper .swiper-pagination {
+    top: 88%;
+}
+
+/* стилі пагінації */
+.swiper .swiper-pagination {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+
+
+/* булети */
+.swiper .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: rgba(17, 17, 17, 0.3);
+}
+
+/* зміна вигляду активного булета */
+.swiper .swiper-pagination-bullet-active {
+    width: 28px;
+    border-radius: 25px;
+    background-color: var(--orange);
+    transition: 250ms cubic-bezier(.17, .67, .83, .67);
+}
+
+/* ----------------------/MOBILE-VERSION---------------------- */
+
+
+
+
+/* ----------------------TABLET-VERSION---------------------- */
+@media screen and (min-width: 768px) {
+    .our-producs {}
+
+    .container {
+        padding-right: 0;
+    }
+
+    .our-products-title {
+        margin-bottom: 50px;
+    }
+
+    .our-products-title-color {}
+
+    .swiper {}
+
+    .our-products-list {}
+
+    .swiper-wrapper {}
+
+    .our-products-link {
+        width: 270px;
+        padding: 32px 20px;
+    }
+
+    .swiper-slide {}
+
+    .our-products-img {}
+
+    .our-products-name {}
+
+    .our-products-text {}
+
+    .our-products-price {}
+
+    /* .swiper-pagination {
+        bottom: 0;
+    } */
+
+    .our-producs {}
+
+    .container {}
+
+    .our-products-title {}
+
+    .our-products-title-color {}
+
+    .swiper {}
+
+    .our-products-list {}
+
+    .swiper-wrapper {}
+
+    .our-products-link {}
+
+    .swiper-slide {}
+
+    .our-products-img {}
+
+    .our-products-name {}
+
+    .our-products-text {}
+
+    .our-products-price {}
+
+    .swiper-pagination {}
+}
+
+/* ----------------------/TABLET-VERSION---------------------- */
+
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
