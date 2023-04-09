@@ -243,7 +243,7 @@
     }
 
     .modal {
-        width: 100%;
+        width: 100vh;
         max-width: 609px;
         position: fixed;
         top: 50vh;
