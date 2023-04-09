@@ -90,7 +90,6 @@
     order: 0;
     flex-grow: 0;
     z-index: 0;
-    margin-bottom: 20px;
     position: relative;
     cursor: pointer;
 }
@@ -161,7 +160,7 @@ iframe {
         height: 400px;
         margin-right: auto;
         margin-left: auto;
-        
+        margin-bottom: 20px;
         display: flex;
     
         background: url(../img/svg/howitsmade/tablet-video-bcground.jpg);
@@ -199,7 +198,9 @@ iframe {
     }
 
     .how-its-made-main-title {
-        padding-top: 128px;
+        padding-top: 0;
     }
-
+    .how-its-made-video {
+        margin-bottom: 0;
+    }
   }
