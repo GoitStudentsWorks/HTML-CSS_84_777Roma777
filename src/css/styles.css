@@ -8,10 +8,12 @@
 @import url('./top-sellers.css');
 @import url('./buy-now-modal.css');
 @import url('./our-products.css');
+@import url('./footer.css');
 
 
 
 :root {
+  background-color: #fafafa;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -24,7 +26,6 @@
 
   color: #111111;
   background-color: #FAFAFA;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
