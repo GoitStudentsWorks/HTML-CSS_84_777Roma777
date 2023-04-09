@@ -48,6 +48,8 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    
+
     .btn:hover {
         background-color: #FCF1E0;
     }
@@ -396,6 +398,7 @@
         width: 133px;
         height: 45px;
     }
+
 
     .modal-submit-btn:hover,
     .modal-submit-btn:focus {
