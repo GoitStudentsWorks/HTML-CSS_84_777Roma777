@@ -1,14 +1,18 @@
-
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
 @import url('./reset.css');
 @import url('./components.css');
+@import url('./top-sellers.css');
+@import url('./buy-now-modal.css');
 @import url('./how-its-made.css');
 @import url('./our-products.css');
-@import url('./top-sellers.css');
 @import url('./review.css');
 @import url('./footer.css');
 
-/* Modals */
-@import url('./buy-now-modal.css');
 
 
 :root {
