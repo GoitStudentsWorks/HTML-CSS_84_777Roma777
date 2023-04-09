@@ -1,1 +1,1 @@
-import './partials/our-products'
+import './js/our-products';
