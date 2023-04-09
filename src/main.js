@@ -1,1 +1,1 @@
-import './partials/hero';
+import './js/hero';
