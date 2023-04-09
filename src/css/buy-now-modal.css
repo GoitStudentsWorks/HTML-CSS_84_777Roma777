@@ -280,12 +280,15 @@
         position: absolute;
         top: 31px;
         right: 31px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .btn:hover {
-        background-color: #FCF1E0;;
+    .btn:hover,
+    .btn:focus {
+        background-color: #FCF1E0;
+        outline: none;
     }
+
 
     .order-list {
         display: flex;
@@ -302,6 +305,7 @@
         border-radius: 15px;
     }
 
+
     .order-modal-picture {
         margin-top: 24px;
         margin-bottom: 14px;
@@ -310,6 +314,10 @@
     select {
         width: 96px;
         height: 33px;
+    }
+
+    select:focus{
+        border-color: orange;
     }
 
     .form-field-personal {
@@ -339,13 +347,18 @@
         height: 66px;
         padding-left: 24px;
         border-radius: 13px;
-        
+        border: 1.5px solid rgba(17, 17, 17, 0.05);
         font-size: 18px;
         font-weight: 500;
         line-height: 1.22;
         letter-spacing: -0.02em;
         color: #000000;
-        outline-color: var(--orange);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    input:hover,
+    input:focus {
+        border: orange 1.5px solid;
     }
 
     .phone {
@@ -388,17 +401,25 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 1.22;
-        transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1.5px solid rgba(17, 17, 17, 0.05);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    textarea:hover,
+    textarea:focus {
+        border: orange 1.5px solid;
     }
 
     .modal-submit-btn {
         width: 133px;
         height: 45px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .modal-submit-btn:hover,
     .modal-submit-btn:focus {
         background-color: rgba(252, 241, 224, 1);
         color: var(--orange);
+        outline: none;
     }
         }
