@@ -7,6 +7,8 @@
 }
 
 .header-logo {
+  display: flex;
+  align-items: center;
   min-width: 144px;
   height: 18px;
 
@@ -27,9 +29,20 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  margin-left: 4px;
 }
 .header-list {
   display: none;
+}
+
+.header-link {
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
 }
 .header-link:focus,
 .header-link:focus,
@@ -292,6 +305,11 @@
   .header-social-item {
     width: 24px;
     height: 24px;
+  }
+
+  .header-social-item:hover, 
+  .header-social-item:focus {
+    
   }
 
   /* .header-social-icon {
