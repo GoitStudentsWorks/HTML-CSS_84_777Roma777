@@ -83,8 +83,11 @@ slideToClickedSlide: true,
       slidesPerView: 2.5,
       spaceBetween: 18,
     },
+     1024: {
+      slidesPerView: 3,
+    },
     1200: {
       slidesPerView: 4,
-    }
+    },
   },
 })
