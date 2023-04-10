@@ -62,7 +62,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 
-                    /* ---------- TABLET --------*/
+        /* ---------- TABLET --------*/
 
 
 @media screen and (min-width: 768px) {
@@ -125,7 +125,7 @@ screen and (min-resolution: 2dppx) {
 
 
 
-                        /* ------- desctop -------*/
+           /* ------- desctop -------*/
 
 
 
