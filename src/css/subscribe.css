@@ -99,7 +99,7 @@ screen and (min-resolution: 2dppx) {
     .subscribe-link {
         width: 172px;
         height: 50px;
-        
+        border: none;
         text-align: center;
         padding: 14px 40px;
         font-weight: 600;
