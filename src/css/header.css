@@ -84,7 +84,6 @@ letter-spacing: -0.02em;
   flex-direction: column;
   justify-content: space-between;
   padding: 136px 46px 20px 20px;
-  min-width: 220px;
   height: 100%;
   overflow: auto;
   background-color: #1e1823;
@@ -219,7 +218,7 @@ letter-spacing: -0.02em;
     position: fixed;
     display: flex;
     top: 0;
-    right: 290px;
+    right: 0;
     width: 100%;
     height: 100%;
     opacity: 1;
@@ -231,7 +230,7 @@ letter-spacing: -0.02em;
   }
 
   .mobile {
-    /* min-width: 290px; */
+    min-width: 0px;
     height: 100%;
     padding: 156px 81px 24px 32px;
     background: #1e1823;
