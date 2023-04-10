@@ -1,3 +1,152 @@
 .subscribe-section {
-    background-image: url();
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/section-subscribe/Subcribe-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe-block {
+    padding-top: 62px;
+    padding-bottom: 63px;
+}
+
+.subscribe-section-heading {
+    width: 291px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.subscribe-section-content {
+    width: 326px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 1.29;
+    color: #ffffff;
+}
+
+.subscribe-link {
+    display: block;
+    width: 128px;
+    height: 41px;
+    margin: auto;
+    background-color: var(--orange);
+    border-radius: 100px;
+
+    padding: 12px 28px;
+    font-weight: 600;
+    line-height: 1.21;
+    color: #ffffff;
+    outline: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ .subscribe-link:hover {
+     color: var(--orange);
+     background-color: #FCF1E0;
+ }
+
+@media screen and (min-device-pixel-ratio:2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url("../img/section-subscribe/Subcribe-back-mobile@2x.jpg");
+    }
+}
+
+
+                    /* ---------- TABLET --------*/
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .subscribe-section {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/section-subscribe/Subcribe-back-tablet@1x.jpg"); 
+    }
+
+    .subscribe-block {
+        width: 467px;
+        margin: auto;
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .subscribe-section-heading {
+        width: 378px;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+
+    .subscribe-section-content {
+        width: 467px;
+        letter-spacing: -0.02em;
+    }
+
+    .subscribe-link {
+        width: 172px;
+        height: 50px;
+        
+        text-align: center;
+        padding: 14px 40px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22;
+    }
+
+    .subscribe-link:focus {
+        color: var(--orange);
+        background-color: #FCF1E0;
+    }
+
+
+
+@media screen and (min-device-pixel-ratio:2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/section-subscribe/Subcribe-back-tablet@2x.jpg");}
+    }
+}
+
+
+
+                        /* ------- desctop -------*/
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .subscribe-section {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/section-subscribe/Subcribe-back-desctop@1x.jpg");
+    }
+
+
+    @media screen and (min-device-pixel-ratio:2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/section-subscribe/Subcribe-back-desctop@2x.jpg");
+        }
+    }
+
 }
