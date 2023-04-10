@@ -109,7 +109,7 @@ iframe {
     border-radius: 15px;
     position: absolute;
 }
-.is-hidden {
+.is-hidden-how-its-made {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
