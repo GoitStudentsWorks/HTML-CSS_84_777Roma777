@@ -1,0 +1,118 @@
+.advantages-section {
+    padding: 20px 0;
+    background: #1E1823;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.advantages-item {
+    margin-bottom: 20px;
+    min-height: 244px;
+}
+
+.advantages-item:last-child {
+    margin-bottom: 0;
+}
+
+.main-item-block {
+    max-width: 336px;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    margin-bottom: 22px;
+}
+
+.advantages-icon {
+    fill: #FD9222;
+}
+
+.advantages-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.advantages-subtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 308px;
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    .advantages-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 32px;
+
+    }
+
+    .advantages-item {
+        /* width: calc((100%-32px) / 2); */
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .vertical-line {
+        display: flex;
+        width: 0px;
+        height: 124px;
+        border: none;
+        margin-top: calc((100% - 65%) / 2);
+        margin-left: 18px;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .advantages-list {
+        display: flex;
+        flex-wrap: nowrap;
+        column-gap: 70px;
+    }
+
+    .vertical-line {
+        display: flex;
+        width: 0px;
+        height: 124px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        margin-top: calc((100% - 65%) / 2);
+        margin-left: 18px;
+
+    }
+
+}

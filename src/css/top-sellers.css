@@ -1,0 +1,142 @@
+.top-sellers {
+    padding-bottom: 128px;
+}
+.tablet {
+    display: none;
+}
+
+.section-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--orange);
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.header-span {
+    color: var(--black);
+}
+
+.border{
+    border-radius: 15px;
+}
+
+.top-sellers-content-mobile {
+    width: 306px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.buy-now-btn-mobile {
+    display: block;
+    width: 120px;
+    height: 41px;
+    background-color: var(--orange);
+    color: white;
+    border-radius: 100px;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buy-now-btn-mobile:hover {
+    background-color: rgba(252, 241, 224, 1);
+    color: var(--orange);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .mobile-block {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+    }
+
+    .item-to-hide {
+        display: none;
+    }
+
+    .section-header {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 50px;
+    }
+
+    .top-sellers-pictures-list {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .content-button-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-sellers-content {
+        width: 306px;
+        
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+
+    .buy-now-btn {
+        display: block;
+        width: 162px;
+        height: 50px;
+        background-color: var(--orange);
+        color: white;
+        border-radius: 100px;
+        border: none;
+
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .buy-now-btn:hover,
+    .buy-now-btn:focus {
+    background-color: rgba(252, 241, 224, 1);
+    color: var(--orange);
+    outline: transparent;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        
+    }
+
+    .item-to-hide {
+        display: block;
+    }
+
+    .top-sellers-content {
+        width: 407px;
+    }
+}
+
