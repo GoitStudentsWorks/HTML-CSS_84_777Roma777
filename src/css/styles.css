@@ -1,10 +1,5 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
+@import url('./header.css');
 @import url('./modal-explore.css');
 @import url('./advantages.css');
 @import url('./components.css');
@@ -20,23 +15,13 @@
 
 :root {
   font-family: 'Montserrat', sans-serif;
-
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   /* var() основні 3 кольори до макету  */
   --black: #111111;
-
   --dark-fiolet: #1e1823;
   --orange: #fd9222;
-
-  
-
-
-  --dark-fiolet: #1E1823;
-  --orange: #FD9222;
-
-
 
   color: #111111;
   background-color: #FAFAFA;
