@@ -3,4 +3,4 @@ import './js/our-products'; /* 2 */
 import './js/how-its-made';
 import './js/swiper';
 import './js/modal';
-import './js/modal.explore';
+import './js/modal-explore';
