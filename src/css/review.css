@@ -198,6 +198,10 @@
   .coment-secondary {
     display: block;
   }
+
+  .review-item {
+    width: 360px;
+  }
 }
 
 /* .swiper .swiper-pagination {
