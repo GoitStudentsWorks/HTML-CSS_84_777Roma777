@@ -1,3 +1,6 @@
+.container {
+	width: 100%;
+}
 .header {
 	padding: 20px 20px 14px 20px;
 }
@@ -6,7 +9,9 @@
 	align-items: center;
 	display: flex;
 	height: 32px;
-	padding: 0;
+	justify-content: space-between;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .header-logo {
@@ -166,7 +171,6 @@
 }
 .menu-hamburger {
 	display: flex;
-	position: absolute;
 	top: 20px;
 	right: 20px;
 	justify-content: center;
@@ -174,10 +178,10 @@
 	padding: 0;
 	width: 28px;
 	height: 28px;
+	border-radius: 50%;
 	background-color: transparent;
 	color: #2e2f42;
 	border: none;
-	margin-left: auto;
 }
 
 .icon-hamburger {
@@ -210,16 +214,17 @@
 @media screen and (min-width: 768px) {
 	.container {
 		width: 100%;
-		padding-left: 32px;
-		padding-right: 32px;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
 	}
 
 	.header-container {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		justify-content: space-between;
 		padding: 0px;
-		gap: 503px;
 		width: 100%;
 	}
 	.header-navigation {
@@ -232,9 +237,9 @@
 	}
 
 	.header-logo {
-		min-width: 169px;
+		width: 169px;
 		height: 21px;
-		font-size: 18px;
+		font-size: 14px;
 	}
 	.backdrop {
 		min-width: 290px;
@@ -265,6 +270,7 @@
 	.header-container {
 		align-items: center;
 		display: flex;
+		width: 100%;
 		height: 24px;
 
 		padding-left: 0;
@@ -276,7 +282,7 @@
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
-		/* gap: 188px; */
+		gap: 188px;
 		justify-content: space-between;
 	}
 
