@@ -14,7 +14,7 @@
     .modal {
         opacity: 0;
         visibility: hidden;
-
+        height: 90vh;
         width: 100%;
         max-width: 311px;
 
@@ -253,7 +253,7 @@
     }
 
     .modal {
-        width: 100vh;
+        height: 90vh;
         max-width: 609px;
         position: fixed;
         top: 50vh;
