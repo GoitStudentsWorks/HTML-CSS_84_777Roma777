@@ -1,25 +1,18 @@
 
-
-    .modal-review {
-      position: relative;
-      width: 311px;
-      height: 350px;
-      padding: 0 24px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      opacity: 1;
-      background: #FAFAFA;
-      border-radius: 15px;
-      background-repeat: no-repeat;
-    }
-
-
-
-
--------------------------------
-
+.modal-review {
+  position: relative;
+  width: 311px;
+  height: 350px;
+  padding: 0 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+  background: #FAFAFA;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+}
 
 .container-review {
   padding: 32px 24px;
