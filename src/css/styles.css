@@ -11,7 +11,8 @@
 @import url('./footer.css');
 @import url('./modal-explore.css');
 @import url('./buy-now-modal.css');
-/* @import url('./modal-review.css'); */
+@import url('./modal-review.css');
+
 
 
 :root {
