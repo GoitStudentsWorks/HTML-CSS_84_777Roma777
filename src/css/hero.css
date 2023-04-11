@@ -7,6 +7,10 @@
       margin-right: auto;
     }
 
+    .hero-section {
+      padding-bottom: 71px;
+    }
+
 /* Hero Start */
   .hero-title {
     display: none;
@@ -137,6 +141,10 @@
 
 @media screen and (min-width: 768px) {
 
+  .hero-section {
+      padding-bottom: 50px;
+    }
+
 .container {
   max-width: 768px;
   padding-left: 30px;
@@ -220,6 +228,10 @@ border-radius:0;
     padding-left: 32px;
     padding-right: 32px;
   }
+
+    .hero-section {
+      padding-bottom: 72px;
+    }
 
   .section-position{
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-dek-1x.jpg);
