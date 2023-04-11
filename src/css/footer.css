@@ -90,7 +90,7 @@
 	.social-media-icon {
 		width: 20px;
 		height: 20px;
-		stroke: rgba(255, 255, 255, 1);
+		fill: #ffffff;
 	}
 }
 
@@ -139,14 +139,14 @@
 		width: 22px;
 		height: 22px;
 
-		transition-property: stroke;
+		transition-property: fill;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	.social-media-icon:focus,
 	.social-media-icon:hover {
-		stroke: rgba(253, 146, 34, 1);
+		fill: rgba(253, 146, 34, 1);
 	}
 	/* --------------------------add effects to nav links------------------------------- */
 

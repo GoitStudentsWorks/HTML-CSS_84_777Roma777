@@ -1,0 +1,187 @@
+
+@media screen and (min-width: 375px) {
+
+    .container{
+        max-width: 375px;
+    }
+    .backdrop {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        .is-hidden {
+        pointer-events: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .modal-explore {
+        position: relative;
+        width: 311px;
+        height: 350px;
+        padding: 0 24px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 1;
+        background: #FAFAFA;
+        border-radius: 15px;
+        background-image: url(../img/modal-explore/choco-mob-1x.jpg);
+        background-repeat: no-repeat;
+    }
+
+    /* @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
+        .hero-section{
+            background-image: url(..//img/modal-explore/choco-mob-2x.jpg);
+        }
+    } */
+
+    .position-explore{
+        position: absolute;
+        bottom: 0;
+        left: 24px;
+        right: 24px;
+    }
+
+    .js-modal-close-svg{
+        border: 0;
+        background-color: transparent;
+    }
+
+    .modal-icon{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        border:1 solid #FAFAFA;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .explore-svg{
+        fill: #ffffff;
+    }
+
+    .modal-explore-title {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: #111111;
+    }
+
+    .new-chocolate{
+        padding-right: 4px;
+        color: rgba(253, 146, 34, 1);
+    }
+
+    .explore-modal-group {
+        display: flex;
+        margin-top: 28px;
+        margin-bottom: 30px;
+    }
+    .explore-input {
+        width: 263px;
+        height: 45px;
+        border: 1.5px solid rgba(17, 17, 17, 0.05);
+        filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+        border-radius: 25px;
+        padding-left: 18px;
+        transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+        outline: none;
+    }
+
+    .explore-input:hover, .explore-input:focus {
+        border: 1.5px solid rgba(253, 146, 34, 1);
+    }
+
+    .modal-explore-type {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.2;
+        color: #ffffff;
+        background-color: #FD9222;
+        border-radius: 100px;
+        padding: 14px 28px;
+        border: 0;
+        right: 0;
+        z-index: 1;
+        margin-left: -100px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal-explore-type:is(:hover, :focus) {
+        background-color: #FCF1E0;
+        color: rgba(253, 146, 34, 1);
+    }
+}
+
+
+@media screen and (min-width: 768px)  {
+    .modal-explore {
+        width: 538px;
+        height: 412px;
+        padding: 0 40px;
+        background-image: url(../img/modal-explore/choco-modal-1x.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    /* @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
+        .hero-section{
+            background-image: url(..//img/modal-explore/choco-modal-2x.jpg);
+        }
+    } */
+    
+    .position-explore{
+        left: 40px;
+        right: 40px;
+    }
+    
+    .modal-icon{
+        top: 24px;
+        right: 24px;
+        width: 40px;
+        height: 40px;
+    }
+   
+    .modal-explore-title {
+        margin-top: 40px;
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    
+    .explore-modal-group {
+        margin-bottom: 40px;
+    }
+
+    .explore-input {
+        width: 100%;
+        height: 52px;
+        padding-left: 24px;
+        margin-right: 8px;
+        border-radius: 30px;
+    }
+    
+    .modal-explore-type {
+        padding: 17px 40px;
+        margin-left: auto;
+        z-index: unset;
+    }  
+}
+
+
+.open-button{
+    width: 50%;
+    height: 50%;
+    padding: 15px 40px;
+    background-color: aqua;
+    color: #FAFAFA;
+}
