@@ -1,4 +1,7 @@
 /* Reset styles */
+html {
+  scroll-behavior: smooth;
+  }
 
 h1,
 h2,
@@ -38,7 +41,7 @@ img {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
