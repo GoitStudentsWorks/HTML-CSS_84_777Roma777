@@ -52,7 +52,7 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.1;
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
@@ -145,7 +145,7 @@
 
 .header-social-icon-mob:hover,
 .header-social-icon-mob:focus {
-	fill: orange;
+	fill: var(--orange);
 }
 .menu-hamburger {
 	display: flex;
@@ -183,7 +183,7 @@
 
 .icon-modal-btn:hover,
 .icon-modal-btn:focus {
-	fill: orange;
+	fill: var(--orange);
 }
 .header-social-list {
 	display: none;
@@ -313,7 +313,7 @@
 
 	.header-social-icon:hover,
 	.header-social-icon:focus {
-		fill: orange;
+		fill: var(--orange);
 	}
 
 	.header-link:hover,
