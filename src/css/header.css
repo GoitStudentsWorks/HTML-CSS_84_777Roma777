@@ -25,6 +25,10 @@
 	color: var(--black);
 }
 
+.header-navigation {
+	max-width: 704px;
+}
+
 .header-icon-choco {
 	display: inline-block;
 	width: 1em;
@@ -217,15 +221,13 @@
 		padding: 0px;
 		gap: 503px;
 		width: 100%;
-		padding-left: 0;
-		padding-right: 0;
 	}
 	.header-navigation {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
-		/* gap: 503px; */
+		gap: 503px;
 		justify-content: space-between;
 	}
 
@@ -274,7 +276,7 @@
 		flex-direction: row;
 		align-items: center;
 		padding: 0px;
-		gap: 188px;
+		/* gap: 188px; */
 		justify-content: space-between;
 	}
 
