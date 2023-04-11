@@ -35,11 +35,11 @@
         background-repeat: no-repeat;
     }
 
-    @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
+    /* @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
         .hero-section{
             background-image: url(..//img/modal-explore/choco-mob-2x.jpg);
         }
-    }
+    } */
 
     .position-explore{
         position: absolute;
@@ -134,11 +134,11 @@
         background-repeat: no-repeat;
     }
     
-    @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
+    /* @media (min-device-pixel-ratio:2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
         .hero-section{
             background-image: url(..//img/modal-explore/choco-modal-2x.jpg);
         }
-    }
+    } */
     
     .position-explore{
         left: 40px;
