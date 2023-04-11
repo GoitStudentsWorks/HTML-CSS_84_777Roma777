@@ -18,7 +18,7 @@
 
   .section-position{
     padding-top: 380px;
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-mob-1x.jpg);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-mob-1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
     .section-position{
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-mob-2x.jpg);
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-mob-2x.jpg);
     }
   }
 
@@ -154,13 +154,14 @@
 }
 
 .section-position{
+  height: 890px;
   padding-bottom: 0;
-  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-tab-1x.jpg);
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-1x.jpg);
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
   .section-position{
-      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-tab-2x.jpg);
+      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-2x.jpg);
   }
 }
 
@@ -234,12 +235,13 @@ border-radius:0;
     }
 
   .section-position{
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-dek-1x.jpg);
+    height: 600px;
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-dek-1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
     .section-position{
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/Hero/chocolate-dek-2x.jpg);
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-dek-2x.jpg);
 
     }
   }
