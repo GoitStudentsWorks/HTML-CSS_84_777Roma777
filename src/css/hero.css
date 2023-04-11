@@ -7,6 +7,7 @@
       margin-right: auto;
     }
 
+    
     .hero-section {
       padding-bottom: 71px;
     }
@@ -70,7 +71,7 @@
   .buy-now-button:hover, .buy-now-button:focus{
     background-color: #FCF1E0;
     color: rgba(253, 146, 34, 1);
-    ;
+    
   }
   .how-made-button {
     font-weight: 600;
