@@ -5,4 +5,3 @@ import './js/how-its-made';
 import './js/swiper';
 import './js/modal';
 import './js/swiper';
-
