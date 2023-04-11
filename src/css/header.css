@@ -232,7 +232,7 @@
 	}
 
 	.mobile {
-		min-width: 0px;
+		min-width: 290px;
 		height: 100%;
 		padding: 156px 81px 24px 32px;
 		background: #1e1823;
@@ -257,6 +257,7 @@
 		align-items: center;
 		display: flex;
 		height: 24px;
+		padding: 0;
 	}
 
 	.header-navigation {
@@ -323,6 +324,9 @@
 	}
 
 	.menu-hamburger {
+		display: none;
+	}
+	.mobile {
 		display: none;
 	}
 }
