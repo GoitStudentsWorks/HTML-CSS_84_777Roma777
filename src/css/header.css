@@ -52,10 +52,11 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.1;
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:focus,
@@ -64,36 +65,8 @@
 	color: var(--orange);
 }
 
-.backdrop {
-	position: fixed;
-	top: 0;
-	right: 0;
-	height: 100%;
-	min-width: 220px;
-	opacity: 1;
-	z-index: 100;
-	background-color: rgba(46, 47, 66, 0.4);
-	transform: translateY(0);
-	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.backdrop.is-hidden {
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: auto;
-}
-
-.is-hidden {
-	opacity: 1;
-	pointer-events: none;
-}
-
-.backdrop.is-hidden .mobile {
-	transform: translateY(0) scale(0.75);
-}
-
 .mobile {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	display: flex;
@@ -101,13 +74,18 @@
 	justify-content: space-between;
 	padding: 136px 46px 20px 20px;
 	min-width: 220px;
-	height: 100%;
+	height: 100vh;
 	overflow: auto;
+	z-index: 100;
 	background-color: #1e1823;
-	transform: translateY(0) scale(1);
-	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transform: translateX(100%);
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		transform 250ms ease-in-out;
 }
 
+.mobile.is-open {
+	transform: translateX(0);
+}
 .header-nav {
 	font-family: "Montserrat";
 	font-style: normal;
@@ -167,7 +145,7 @@
 
 .header-social-icon-mob:hover,
 .header-social-icon-mob:focus {
-	fill: orange;
+	fill: var(--orange);
 }
 .menu-hamburger {
 	display: flex;
@@ -205,7 +183,7 @@
 
 .icon-modal-btn:hover,
 .icon-modal-btn:focus {
-	fill: orange;
+	fill: var(--orange);
 }
 .header-social-list {
 	display: none;
@@ -255,6 +233,10 @@
 	.menu-hamburger {
 		width: 32px;
 		height: 32px;
+	}
+
+	.header-social-icon {
+		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 }
 
@@ -331,7 +313,7 @@
 
 	.header-social-icon:hover,
 	.header-social-icon:focus {
-		fill: orange;
+		fill: var(--orange);
 	}
 
 	.header-link:hover,

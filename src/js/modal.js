@@ -1,14 +1,19 @@
 (() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-mobile-open]'),
-    closeModalBtn: document.querySelector('[data-mobile-close]'),
-    modal: document.querySelector('[data-mobile]'),
-  };
+	const mobileMenu = document.querySelector(".js-menu-container");
+	const openMenuBtn = document.querySelector(".js-open-menu");
+	const closeMenuBtn = document.querySelector(".js-close-menu");
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+	const toggleMenu = () => mobileMenu.classList.toggle("is-open");
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
+	openMenuBtn.addEventListener("click", toggleMenu);
+	closeMenuBtn.addEventListener("click", toggleMenu);
+
+	// Close the mobile menu on wider screens if the device orientation changes
+	window.matchMedia("(min-width: 768px)").addEventListener("change", e => {
+		if (!e.matches) {
+			return;
+		}
+
+		mobileMenu.classList.remove("is-open");
+	});
 })();
