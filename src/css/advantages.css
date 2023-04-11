@@ -62,7 +62,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .section {
+    .advantages-section {
         padding: 50px 0;
     }
 
@@ -71,7 +71,6 @@
         flex-wrap: wrap;
         row-gap: 32px;
         column-gap: 32px;
-
     }
 
     .advantages-item {
@@ -83,17 +82,16 @@
     .vertical-line {
         display: flex;
         width: 0px;
-        height: 124px;
+        min-height: 124px;
         border: none;
-        margin-top: calc((100% - 65%) / 2);
-        margin-left: 18px;
-
+        margin-top: 65px;
+        margin-left: 28px;
     }
+
 }
 
 
 @media screen and (min-width: 1200px) {
-
 
     .container {
         max-width: 1200px;
@@ -106,13 +104,9 @@
     }
 
     .vertical-line {
-        display: flex;
-        width: 0px;
-        height: 124px;
         border: 1px solid rgba(255, 255, 255, 0.5);
-        margin-top: calc((100% - 65%) / 2);
+        margin: 60px 0;
         margin-left: 18px;
-
     }
 
 }
