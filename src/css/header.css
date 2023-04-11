@@ -22,6 +22,11 @@
   color: var(--black);
 }
 
+.header-navigation {
+  max-width: 704px;
+}
+
+
 .header-icon-choco {
   display: inline-block;
   width: 1em;
@@ -196,20 +201,12 @@
     padding-right: 32px;
   }
 
-  .header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 503px;
-    width: 100%;
-  }
 .header-navigation {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 503px;
+    
     justify-content: space-between;
   }
 
@@ -264,7 +261,7 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 188px;
+    /* gap: 188px; */
     justify-content: space-between;
   }
 
