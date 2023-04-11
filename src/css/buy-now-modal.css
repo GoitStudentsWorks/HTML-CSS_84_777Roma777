@@ -43,6 +43,30 @@
     transition: 0.3s all;
 }
 
+.modal::-webkit-scrollbar {
+    width: 0px;
+}
+
+.modal::-moz-scrollbar {
+    width: 0px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.modal::-webkit-scrollbar-track {
+    display: none;
+}
+
+.modal::-moz-scrollbar-thumb {
+    display: none;
+}
+
+.modal::-moz-scrollbar-track {
+    display: none;
+}
+
 .btn {
     display: flex;
     justify-content: center;
