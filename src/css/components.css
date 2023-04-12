@@ -204,7 +204,7 @@ span {
   border-radius: 35px;
 }
 .flip-card-description {
-  width: 214px;
+  width: 100%;
   height: 146px;
   overflow-y: scroll;
   text-align: start;
