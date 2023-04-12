@@ -1,6 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=30&pause=1000&color=FD9222&background=1E18237F&center=true&width=435&lines=Not+Broken+Team)](https://git.io/typing-svg)
 
-<img src="./img/not-broken.png"/>
 <h1>Our project - "Simply Chocolate"</h1>
 https://777roma777.github.io/team-project/
 
