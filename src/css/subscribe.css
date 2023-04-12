@@ -117,7 +117,7 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-device-pixel-ratio:2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        .hero {
+        .subscribe-section {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
                 url("/img/section-subscribe/Subcribe-back-tablet@2x.jpg");}
     }
@@ -143,7 +143,7 @@ screen and (min-resolution: 2dppx) {
     @media screen and (min-device-pixel-ratio:2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-        .hero {
+        .subscribe-section {
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
                 url("/img/section-subscribe/Subcribe-back-desctop@2x.jpg");
         }
