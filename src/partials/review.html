@@ -49,85 +49,48 @@
 				</p>
 			</li>
 		</ul>
-		<button class="review-btn js-open-modal" data-modal="4" type="button">Leave a review</button>
+		<button class="review-btn" type="button" data-review-open>Leave a review</button>
 	</div>
 </section>
+
 <!-- Modalka Review!!! -->
-<div class="modal modal-review" data-modal="4">
-	<button class="button-close-review js-modal-close" type="button">
-		<svg class="modal-review-svg" width="14px" height="14px">
-			<use href="./img/svg/icons.svg#icon-close-modalka"></use>
-		</svg>
-	</button>
-	<div class="container-review">
-		<h2 class="text-modal-review">
-			LEAVE A REVIEW <br />
-			ABOUT
-			<span class="second-part-text">OUR CHOCOLATE</span>
-		</h2>
-		<form class="review-form">
-			<label class="review-label"
-				><input type="text" name="name" class="input-review" placeholder="Name" required
-			/></label>
+<div class="backdrop is-hidden-review" data-review-backdrop>
+	<div class="modal-review">
+		<button data-review-close class="button-close-review" type="button">
+			<svg class="modal-review-svg" width="14px" height="14px">
+				<use href="./img/svg/icons.svg#icon-close-modalka"></use>
+			</svg>
+		</button>
+		<div class="container-review">
+			<h2 class="text-modal-review">
+				LEAVE A REVIEW <br />
+				ABOUT
+				<span class="second-part-text">OUR CHOCOLATE</span>
+			</h2>
+			<form class="review-form">
+				<label class="review-label"
+					><input type="text" name="name" class="input-review" placeholder="Name" required
+				/></label>
 
-			<label class="review-label"
-				><input type="email" name="email" class="input-review" placeholder="Email" required
-			/></label>
-			<label class="review-label">
-				<span class="review-tel">
-					<input type="tel" name="tel" class="input-review tel" placeholder="Phone number" required />
-					<span class="icons-review">
-						<svg class="review-ukraine">
-							<use href="./img/svg/icons.svg#icon-ukraine"></use>
-						</svg>
-						<span class="phone-start">+380</span>
+				<label class="review-label"
+					><input type="email" name="email" class="input-review" placeholder="Email" required
+				/></label>
+				<label class="review-label">
+					<span class="review-tel">
+						<input type="tel" name="tel" class="input-review tel" placeholder="Phone number" required />
+						<span class="icons-review">
+							<svg class="review-ukraine">
+								<use href="./img/svg/icons.svg#icon-ukraine"></use>
+							</svg>
+							<span class="phone-start">+380</span>
+						</span>
 					</span>
-				</span>
-			</label>
-			<label class="review-label-textarea">
-				<textarea name="text" id="text" placeholder="Enter text" class="input-review-textarea"></textarea>
-			</label>
-			<button type="submit" class="submit-form-review">Send</button>
-		</form>
+				</label>
+				<label class="review-label-textarea">
+					<textarea name="text" id="text" placeholder="Enter text" class="input-review-textarea"></textarea>
+				</label>
+				<button data-review-close type="submit" class="submit-form-review">Send</button>
+			</form>
+		</div>
 	</div>
-	<!-- </div> -->
-</div>
-<div class="modal modal-review" data-modal="4">
-	<button class="button-close-review js-modal-close" type="button">
-		<svg class="modal-review-svg" width="14px" height="14px">
-			<use href="../img/svg/icons.svg#icon-close-modalka"></use>
-		</svg>
-	</button>
-	<div class="container-review">
-		<h2 class="text-modal-review">
-			LEAVE A REVIEW <br />
-			ABOUT
-			<span class="second-part-text">OUR CHOCOLATE</span>
-		</h2>
-		<form class="review-form">
-			<label class="review-label"
-				><input type="text" name="name" class="input-review" placeholder="Name" required
-			/></label>
-
-			<label class="review-label"
-				><input type="email" name="email" class="input-review" placeholder="Email" required
-			/></label>
-			<label class="review-label">
-				<span class="review-tel">
-					<input type="tel" name="tel" class="input-review tel" placeholder="Phone number" required />
-					<span class="icons-review">
-						<svg class="review-ukraine">
-							<use href="../img/svg/icons.svg#icon-ukraine"></use>
-						</svg>
-						<span class="phone-start">+380</span>
-					</span>
-				</span>
-			</label>
-			<label class="review-label-textarea">
-				<textarea name="text" id="text" placeholder="Enter text" class="input-review-textarea"></textarea>
-			</label>
-			<button type="submit" class="submit-form-review">Send</button>
-		</form>
-	</div>
-	<!-- </div> -->
 </div>
