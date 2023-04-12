@@ -1,23 +1,23 @@
 @media screen and (min-width: 320px) {
-    .container{
-      max-width: 375px;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    
-    .hero-section {
-      padding-bottom: 71px;
-    }
 
-/* Hero Start */
+  .hero-section {
+    padding-bottom: 71px;
+  }
+
+  /* Hero Start */
   .hero-title {
     display: none;
   }
 
-  .section-position{
+  .section-position {
     padding-top: 380px;
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-mob-1x.jpg);
     background-repeat: no-repeat;
@@ -28,16 +28,18 @@
 
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
-    .section-position{
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-mob-2x.jpg);
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 102dpi),
+  (min-resolution: 2dppx) {
+    .section-position {
+      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-mob-2x.jpg);
     }
   }
 
-  .hero{
+  .hero {
     padding: 0 20px;
   }
-  
+
   .hero-desc {
     display: flex;
     justify-content: center;
@@ -49,12 +51,14 @@
     color: #FFFFFF;
     margin-bottom: 20px;
   }
+
   .order-button {
     display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 0 20px;
   }
+
   .buy-now-button {
     font-weight: 600;
     font-size: 14px;
@@ -67,12 +71,14 @@
     margin-right: 14px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .buy-now-button:hover, .buy-now-button:focus{
+
+  .buy-now-button:hover,
+  .buy-now-button:focus {
     background-color: #FCF1E0;
     color: rgba(253, 146, 34, 1);
-    
+
   }
+
   .how-made-button {
     font-weight: 600;
     font-size: 14px;
@@ -84,14 +90,15 @@
     padding: 12px 28px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .how-made-button:hover, .how-made-button:focus{
+
+  .how-made-button:hover,
+  .how-made-button:focus {
     border: 1px solid #FD9222;
     background-color: #FFFFFF;
     color: rgba(253, 146, 34, 1);
   }
 
-  .scroll-link{
+  .scroll-link {
     display: flex;
     align-items: center;
     padding: 5px 16px 10px 16px;
@@ -109,7 +116,7 @@
     border: none;
   }
 
-  .scroll-link:is(:hover, :focus) .scroll-title{
+  .scroll-link:is(:hover, :focus) .scroll-title {
     background-color: none;
     color: rgba(253, 146, 34, 1);
   }
@@ -124,18 +131,18 @@
   }
 
   .scroll-link:is(:hover, :focus) .scroll-button {
-   background-color: rgba(253, 146, 34, 1);
+    background-color: rgba(253, 146, 34, 1);
   }
 
   .check-mark-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  fill:#fd9222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fd9222;
   }
 
-  .scroll-link:is(:hover, :focus) .check-mark-svg{
+  .scroll-link:is(:hover, :focus) .check-mark-svg {
     fill: #FFFFFF;
   }
 }
@@ -143,105 +150,109 @@
 @media screen and (min-width: 768px) {
 
   .hero-section {
-      padding-bottom: 50px;
-    }
-
-.container {
-  max-width: 768px;
-  padding-left: 30px;
-  padding-right: 32px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-position{
-  padding-bottom: 0;
-  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-1x.jpg);
-}
-
-@media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
-  .section-position{
-      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-2x.jpg);
+    padding-bottom: 50px;
   }
-}
 
-.position{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .container {
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.hero{
-  padding: 0 40px;
-}
+  .section-position {
+    padding-bottom: 0;
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-1x.jpg);
+  }
 
-.hero-desc {
-  max-width: 470px;
-  font-size: 28px;
-  margin-right: 0;
-}
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 102dpi),
+  (min-resolution: 2dppx) {
+    .section-position {
+      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-tab-2x.jpg);
+    }
+  }
 
-.position{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.scroll-wrapper {
-  margin-left: auto;
-  padding-right: 40px;
-}
+  .hero {
+    padding: 0 40px;
+  }
 
-.scroll-link{
-padding: 0;
-border-radius:0;
-}
+  .hero-desc {
+    max-width: 470px;
+    font-size: 28px;
+    margin-right: 0;
+  }
 
-.order-button {
-  padding-top: 0;
-  padding-left: 40px;
-  padding-right: 0;
-}
+  .position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.buy-now-button {
-  padding: 14px 40px;
-}
+  .scroll-wrapper {
+    margin-left: auto;
+    padding-right: 40px;
+  }
 
-.how-made-button {
-  padding: 14px 40px;
-}
+  .scroll-link {
+    padding: 0;
+    border-radius: 0;
+  }
 
-.scroll-title {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
-  margin-right: 14px;
-  border: none; 
-}
+  .order-button {
+    padding-top: 0;
+    padding-left: 40px;
+    padding-right: 0;
+  }
+
+  .buy-now-button {
+    padding: 14px 40px;
+  }
+
+  .how-made-button {
+    padding: 14px 40px;
+  }
+
+  .scroll-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-right: 14px;
+    border: none;
+  }
 }
 
 
 @media screen and (min-width: 1200px) {
-  .container{
+  .container {
     max-width: 1200px;
     padding-left: 32px;
     padding-right: 32px;
   }
 
-    .hero-section {
-      padding-bottom: 72px;
-    }
+  .hero-section {
+    padding-bottom: 72px;
+  }
 
-  .section-position{
+  .section-position {
     height: 600px;
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-dek-1x.jpg);
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 102dpi), (min-resolution: 2dppx) {
-    .section-position{
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-dek-2x.jpg);
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 102dpi),
+  (min-resolution: 2dppx) {
+    .section-position {
+      background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/Hero/chocolate-dek-2x.jpg);
 
     }
   }
@@ -250,5 +261,5 @@ border-radius:0;
     width: 38px;
     height: 38px;
   }
-  
+
 }
