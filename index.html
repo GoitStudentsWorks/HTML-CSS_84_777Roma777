@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/HTML-CSS_84_777Roma777/assets/favicon-6cf33c14.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simply Chocolate</title>
+		<link
+			rel="stylesheet"
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<script type="module" crossorigin src="/HTML-CSS_84_777Roma777/assets/index-4b7cc289.js"></script>
+		<link rel="stylesheet" href="/HTML-CSS_84_777Roma777/assets/index-a3f3d608.css">
+	</head>
+
+	<body>
+		<header id="home" class="header">
+	<div class="container header-container">
+		<nav class="header-navigation">
+			<a class="header-logo" href="./index.html">
+				SIMPLY CHOCOLATE
+				<svg class="header-icon-choco" width="24" height="24">
+					<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-choco"></use>
+				</svg>
+			</a>
+			<ul class="header-list list">
+				<li class="header-item">
+					<a class="header-link link" href="#home">Home</a>
+				</li>
+				<li class="header-item">
+					<a class="header-link link" href="#how-its-made">How it's made?</a>
+				</li>
+				<li class="header-item">
+					<a class="header-link link" href="#our-products">Our products</a>
+				</li>
+				<li class="header-item">
+					<a class="header-link link" href="#top-sellers">Top sellers</a>
+				</li>
+				<li class="header-item">
+					<a class="header-link link" href="#chocolate-is-loved">Chocolate is loved</a>
+				</li>
+			</ul>
+		</nav>
+		<div>
+			<ul class="header-social-list list">
+				<li class="header-social-item">
+					<a href="https://www.instagram.com" class="header-social-link link" target="_blank">
+						<svg class="header-social-icon" width="24" height="24">
+							<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-instagram-icon-mobile"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="header-social-item">
+					<a href="https://www.twitter.com" class="header-social-link link" target="_blank">
+						<svg class="header-social-icon" width="24" height="24">
+							<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-twitter-icon"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<button type="button" class="menu-hamburger js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+			<svg width="28" height="28">
+				<use class="icon-hamburger" href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-menu-icon"></use>
+			</svg>
+		</button>
+
+		<div class="mobile js-menu-container" id="mobile-menu">
+			<svg class="icon-modal-btn js-close-menu">
+				<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-сlose-icon-converted"></use>
+			</svg>
+			<nav class="header-nav">
+				<ul class="header-list-mobile list">
+					<li class="header-item">
+						<a class="header-link link" href="#home">Home</a>
+					</li>
+					<li class="header-item">
+						<a class="header-link link" href="#how-its-made">How it’s made?</a>
+					</li>
+					<li class="header-item">
+						<a class="header-link link" href="#our-products">Our products</a>
+					</li>
+					<li class="header-item">
+						<a class="header-link link" href="#top-sellers">Top sellers</a>
+					</li>
+					<li class="header-item">
+						<a class="header-link link" href="#chocolate-is-loved">Chocolate is loved</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div>
+				<ul class="header-social-list-mob list">
+					<li class="header-social-item-mob">
+						<a href="https://www.instagram.com" class="header-social-link-mob link" target="_blank">
+							<svg class="header-social-icon-mob" width="22" height="22">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-instagram-icon-mobile"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="header-social-item-mob">
+						<a href="https://www.twitter.com" class="header-social-link-mob link" target="_blank">
+							<svg class="header-social-icon-mob" width="22" height="22">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-twitter-icon"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+		<main>
+			<section class="hero-section">
+	<div class="container">
+		<div class="section-position">
+			<div class="hero">
+				<h1 class="hero-title">SIMPLY CHOCOLATE</h1>
+				<p class="hero-desc"> Treat yourself or a loved one to our finest ingredients for a moment of pure delight! </p>
+			</div>
+
+			<div class="position">
+				<div class="order-button">
+					<button type="button" class="buy-now-button js-open-modal" data-modal="1"> Buy now </button>
+					<a href="#how-its-made" class="how-made-button">How it's made</a>
+				</div>
+
+				<div class="scroll-wrapper">
+					<a class="scroll-link" href="#footer">
+						<span class="scroll-title">scroll down</span>
+						<span type="button" class="scroll-button">
+							<svg class="check-mark-svg" width="16" height="16">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-check-mark"></use>
+							</svg>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+			<section class="advantages-section">
+    <div class="container">
+        <h2 class="visually-hidden">advantages</h2>
+        <ul class="advantages-list">
+
+            <li class="advantages-item">
+                <div class="main-item-block">
+                    <div class="svg-container">
+                        <svg class="advantages-icon" width="32" height="32">
+                            <use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-choc-advantages"></use>
+                        </svg>
+                    </div>
+                    <h3 class="advantages-title">Unsurpassed taste</h3>
+                    <p class="advantages-subtitle">Crafted with the finest quality cocoa beans and a dedication to
+                        perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness
+                        and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+                </div>
+                <div class="vertical-line"></div>
+            </li>
+            <li class="advantages-item">
+                <div class="main-item-block">
+                    <div class="svg-container">
+                        <svg class="advantages-icon" width="32" height="32">
+                            <use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-dollar-advantages"></use>
+                        </svg>
+                    </div>
+                    <h3 class="advantages-title">Affordable price</h3>
+                    <p class="advantages-subtitle">Indulge in high-quality chocolate without breaking the bank with
+                        Simply
+                        Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate
+                        bars
+                        without sacrificing taste or quality. Browse our selection and indulge in affordable luxury
+                        today.
+                    </p>
+                </div>
+                <div class="vertical-line">
+                </div>
+            </li>
+            <li class="advantages-item">
+                <div class="main-item-block">
+                <div class="svg-container">
+                        <svg class="advantages-icon" width="32" height="32">
+                            <use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-spoon-advantages"></use>
+                        </svg>
+                    </div>
+                    <h3 class="advantages-title">Own production</h3>
+                    <p class="advantages-subtitle">We take pride in our own production process, ensuring that every step
+                        is
+                        carefully crafted to perfection. From selecting the finest ingredients to handcrafting each
+                        piece,
+                        our attention to detail is evident in every bite.</p>
+                </div>
+                
+            </li>
+            
+        </ul>
+    </div>
+</section>
+			<!-- COMPONENTS -->
+<section class="components">
+    <div class="components-container container">
+        <div class="components-head">
+            <h2 class="components-title">IT ALL ADDS UP TO ONE <br> EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
+            <p class="components-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in
+                the details. From the sourcing of the finest ingredients to the careful crafting of each individual
+                piece, every step of our process adds up to one exceptional taste sensation.</p>
+        </div>
+        <ul class="component-list list">
+            <!-- ITEM MILK CHOCOLATE -->
+            <li class="list-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front item-milk-chocolate">
+                            <picture class="picture-component">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-chocolate-dst-1x-1918b755.png 1x, /HTML-CSS_84_777Roma777/assets/milk-chocolate-dst-2x-29ab911f.png 2x" media="(min-width: 1200px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-chocolate-1x-9f86c9fc.png 1x, /HTML-CSS_84_777Roma777/assets/milk-chocolate-2x-7c166abf.png 2x" media="(min-width: 768px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-chocolate-1x-9f86c9fc.png 1x, /HTML-CSS_84_777Roma777/assets/milk-chocolate-2x-7c166abf.png 2x" media="(max-width: 767px)">
+                                <img src="/HTML-CSS_84_777Roma777/assets/milk-chocolate-1x-9f86c9fc.png" alt="" width="224"
+                                    height="171">
+                            </picture>
+                            <h3 class="components-description">MILK CHOCOLATE</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="flip-card-title">MILK CHOCOLATE</h3>
+                            <ul class="flip-card-list">
+                                <li class="flip-card-item item-chocolate">
+                                    <p class="flip-card-components-1">chocolate</p>
+                                </li>
+                                <li class="flip-card-item item-benefits">
+                                    <p class="flip-card-components-2">the benefits</p>
+                                </li>
+                            </ul>
+                            <p class="flip-card-description">Milk chocolate is a solid chocolate confectionery
+                                containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate
+                                was originally sold and consumed as a beverage in pre-Columbian times. Although
+                                four-fifths of all milk chocolate is sold in the United States and Europe.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- /ITEM MILK CHOCOLATE -->
+
+            <!-- ITEM MILK -->
+            <li class="list-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <picture class="picture-component">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-dst-1x-a865d2b9.png 1x, /HTML-CSS_84_777Roma777/assets/milk-dst-2x-6c67755b.png 2x" media="(min-width: 1200px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-1x-ccd4ebf7.png 1x, /HTML-CSS_84_777Roma777/assets/milk-2x-43b253bf.png 2x" media="(min-width: 768px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/milk-1x-ccd4ebf7.png 1x, /HTML-CSS_84_777Roma777/assets/milk-2x-43b253bf.png 2x" media="(max-width: 767px)">
+                                <img src="/HTML-CSS_84_777Roma777/assets/milk-1x-ccd4ebf7.png" alt="component">
+                            </picture>
+                            <h3 class="components-description text-component">MILK</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="flip-card-title">MILK</h3>
+                            <ul class="flip-card-list">
+                                <li class="flip-card-item item-milk">
+                                    <p class="flip-card-components-1">milk</p>
+                                </li>
+                                <li class="flip-card-item item-benefits">
+                                    <p class="flip-card-components-2">the benefits</p>
+                                </li>
+                            </ul>
+                            <p class="flip-card-description">Milk is a white liquid food produced by the mammary glands
+                                of mammals. It is the primary source of nutrition for young mammals (including breastfed
+                                human infants) before they are able to digest solid food.Early-lactation milk, which is
+                                called colostrum, contains antibodies that strengthen the immune system.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- /ITEM MILK -->
+
+            <!-- ITEM NUTS -->
+            <li class="list-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front item-nuts">
+                            <picture class="picture-component">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/nuts-dst-1x-c4f84181.png 1x, /HTML-CSS_84_777Roma777/assets/nuts-dst-2x-82367eb5.png 2x" media="(min-width: 1200px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/nuts-1x-5aac7a7e.png 1x, /HTML-CSS_84_777Roma777/assets/nuts-2x-bb897363.png 2x" media="(min-width: 768px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/nuts-1x-5aac7a7e.png 1x, /HTML-CSS_84_777Roma777/assets/nuts-2x-bb897363.png 2x" media="(max-width: 767px)">
+                                <img src="/HTML-CSS_84_777Roma777/assets/nuts-1x-5aac7a7e.png" alt="" width="224" height="171">
+                            </picture>
+                            <h3 class="components-description">NUTS</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="flip-card-title">NUTS</h3>
+                            <ul class="flip-card-list">
+                                <li class="flip-card-item item nuts-t">
+                                    <p class="flip-card-components-1">nuts</p>
+                                </li>
+                                <li class="flip-card-item item-benefits">
+                                    <p class="flip-card-components-2">the benefits</p>
+                                </li>
+                            </ul>
+                            <p class="flip-card-description">Almonds, pistachios, and walnuts are some types of nuts
+                                that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9
+                                nuts may offer benefits such as reducing your risk of heart disease. They’re a good
+                                source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- ITEM NUTS -->
+
+            <!-- ITEM SWEET CHOCOLATE -->
+            <li class="list-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <picture class="picture-component">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/sweet-chocolate-dst-1x-db885793.png 1x, /HTML-CSS_84_777Roma777/assets/sweet-chocolate-dst-2x-3d0436f4.png 2x" media="(min-width: 1200px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/sweet-chocolate-1x-7256063e.png 1x, /HTML-CSS_84_777Roma777/assets/sweet-chocolate-2x-6f1b5589.png 2x" media="(min-width: 768px)">
+                                <source srcset="/HTML-CSS_84_777Roma777/assets/sweet-chocolate-1x-7256063e.png 1x, /HTML-CSS_84_777Roma777/assets/sweet-chocolate-2x-6f1b5589.png 2x" media="(max-width: 767px)">
+                                <img src="/HTML-CSS_84_777Roma777/assets/sweet-chocolate-1x-7256063e.png" alt="" width="224"
+                                    height="171">
+                            </picture>
+                            <h3 class="components-description text-component">SEMI - SWEET CHOCOLATE</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 class="flip-card-title">SEMI - SWEET CHOCOLATE</h3>
+                            <ul class="flip-card-list">
+                                <li class="flip-card-item item-sweet-chocolate">
+                                    <p class="flip-card-components-1">sweet chocolate</p>
+                                </li>
+                                <li class="flip-card-item item-benefits">
+                                    <p class="flip-card-components-2">the benefits</p>
+                                </li>
+                            </ul>
+                            <p class="flip-card-description">Semi-sweet chocolate has a cocoa solid content of 35 to
+                                65%. One of the best ways to gain an understanding of this type of chocolate is to
+                                compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In
+                                a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- /ITEM SWEET CHOCOLATE -->
+        </ul>
+    </div>
+</section>
+			<section class="container">
+  <div>
+    <h2 class="how-its-made-main-title" id="how-its-made">
+      How it's <span>made?</span>
+    </h2>
+  </div>
+  <div class="how-its-made-content">
+    <div data-modal-open-how-its-made class="how-its-made-video">
+      <svg class="video-play">
+        <use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-play"></use>
+      </svg>
+      <iframe data-modal-how-its-made
+        src="https://www.youtube.com/embed/EGdpjldRTWQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        class="is-hidden-how-its-made"
+      ></iframe>
+    </div>
+    <div class="how-its-made-udervideo-content">
+      <h3 class="how-its-made-udervideo-title">
+        Try our chocolates today and discover the perfect balance of flavor
+      </h3>
+      <ul class="how-its-made-udervideo-descr">
+        <li>
+          Heat the milk in a saucepan without bringing it to a boil. Add sugar
+          and cocoa powder.
+        </li>
+        <li>At the same time, prepare a water bath. Melt the butter on it.</li>
+        <li>
+          "Mix" the milk mixture and already liquid butter. Mix thoroughly with
+          a silicone spatula so that the mass becomes uniform and silky.
+        </li>
+        <li>Heat the mixture over low heat, letting it barely boil.</li>
+        <li>
+          Pour the chocolate into special containers (can be replaced with ice
+          molds). Allow to cool and harden.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+			<section id="our-products" class="our-producs">
+	<div class="container">
+		<h2 class="our-products-title">Our <span class="our-products-title-color">products</span></h2>
+
+		<div class="swiper">
+			<ul class="our-products-list swiper-wrapper">
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/orange-1x-3aa14134.jpg 1x, /HTML-CSS_84_777Roma777/assets/orange-2x-736d3d67.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/orange-1x-3aa14134.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">orange</h3>
+					<p class="our-products-text">Dark chocolate</p>
+					<p class="our-products-price">45 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/apple-cranberry-1x-94eb834c.jpg 1x, /HTML-CSS_84_777Roma777/assets/apple-cranberry-2x-f28e91df.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/apple-cranberry-1x-94eb834c.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">APPLE&CRANBERRY</h3>
+					<p class="our-products-text">Milk chocolate</p>
+					<p class="our-products-price">50 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/lime-sea-salt-1x-b19c9aa8.jpg 1x, /HTML-CSS_84_777Roma777/assets/lime-sea-salt-2x-1418a7e0.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/lime-sea-salt-1x-b19c9aa8.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">lime&sea salt</h3>
+					<p class="our-products-text">Dark chocolate</p>
+					<p class="our-products-price">66 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/pineaple-1x-40886c89.jpg 1x, /HTML-CSS_84_777Roma777/assets/pineaple-2x-0992d4f0.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/pineaple-1x-40886c89.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">pineapple</h3>
+					<p class="our-products-text">Dark chocolate</p>
+					<p class="our-products-price">54 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/classic-1x-9f194871.jpg 1x, /HTML-CSS_84_777Roma777/assets/classic-2x-c7584e94.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/classic-1x-9f194871.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">Classic</h3>
+					<p class="our-products-text">Milk chocolate</p>
+					<p class="our-products-price">45 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/honey-1x-ad55bcc8.jpg 1x, /HTML-CSS_84_777Roma777/assets/honey-2x-1162d8d7.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/honey-1x-ad55bcc8.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">honey</h3>
+					<p class="our-products-text">Milk chocolate</p>
+					<p class="our-products-price">50 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/roasted-fruits-1x-7909b6c3.jpg 1x, /HTML-CSS_84_777Roma777/assets/roasted-fruits-2x-77f894c8.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/roasted-fruits-1x-7909b6c3.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">Roasted fruits</h3>
+					<p class="our-products-text">Dark chocolate</p>
+					<p class="our-products-price">66 UAH</p>
+				</li>
+
+				<li class="our-products-link swiper-slide">
+					<picture>
+						<source
+							srcset="/HTML-CSS_84_777Roma777/assets/classic-white-1x-e84086e0.jpg 1x, /HTML-CSS_84_777Roma777/assets/classic-white-2x-9698d9ec.jpg 2x"
+							media="(min-width: 320px)"
+						/>
+
+						<img src="/HTML-CSS_84_777Roma777/assets/classic-white-1x-e84086e0.jpg" alt="type of chocolate" class="our-products-img" />
+					</picture>
+
+					<h3 class="our-products-name">Classic</h3>
+					<p class="our-products-text">White chocolate</p>
+					<p class="our-products-price">54 UAH</p>
+				</li>
+			</ul>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</section>
+
+			<section id="top-sellers" class="top-sellers">
+	<div class="container tablet">
+		<div>
+			<h2 class="section-header"> TOP <span class="header-span">SELLERS</span> </h2>
+			<div>
+				<ul class="top-sellers-pictures-list">
+					<li class="top-sellers-picture-item">
+						<picture>
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-mobile@1x-5ebf8dae.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-mobile@2x-6e142701.jpg 2x"
+								media="(max-width: 767px)"
+							/>
+
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-tablet@1x-88ad0a70.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-tablet@2x-49fff36d.jpg 2x"
+								media="(max-width: 1199px)"
+							/>
+
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-desctop@1x-1bbae235.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-desctop@2x-3997e1c8.jpg 2x"
+								media="(min-width: 1200px)"
+							/>
+
+							<img
+								src="/HTML-CSS_84_777Roma777/assets/choco-nut-desctop@1x-1bbae235.jpg"
+								alt="picture of chocolate with nuts"
+								class="border"
+							/>
+						</picture>
+					</li>
+
+					<li class="top-sellers-picture-item">
+						<picture>
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-mobile@1x-f64bfd1c.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-mobile@2x-514f87e1.jpg 2x"
+								media="(max-width: 767px)"
+							/>
+
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-tablet@1x-df09263c.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-tablet@2x-9171563b.jpg 2x"
+								media="(max-width: 1199px)"
+							/>
+
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-dectop@1x-ac8632fd.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-dectop@2x-a8a44793.jpg 2x"
+								media="(min-width: 1200px)"
+							/>
+
+							<img
+								src="/HTML-CSS_84_777Roma777/assets/choco-mint-dectop@1x-ac8632fd.jpg"
+								alt="picture of chocolate with mint"
+								class="border"
+							/>
+						</picture>
+					</li>
+
+					<li class="top-sellers-picture-item item-to-hide">
+						<picture>
+							<source
+								srcset="/HTML-CSS_84_777Roma777/assets/choco-dectop@1x-ce8f8475.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-dectop@2x-f25643e2.jpg 2x"
+								media="(min-width: 1200px)"
+							/>
+
+							<img
+								src="/HTML-CSS_84_777Roma777/assets/choco-dectop@1x-ce8f8475.jpg"
+								alt="picture of chocolate bars"
+								class="border"
+							/>
+						</picture>
+					</li>
+				</ul>
+			</div>
+			<div class="content-button-block">
+				<p class="top-sellers-content">
+					Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around
+					for thousands of years and was first discovered by the Native American tribe called the Mayans.
+				</p>
+				<button class="buy-now-btn js-open-modal" data-modal="1" type="button"> Buy now </button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mobile-block">
+		<h2 class="section-header">TOP <span class="header-span">SELLERS</span></h2>
+		<picture>
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-mobile@1x-5ebf8dae.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-mobile@2x-6e142701.jpg 2x"
+				media="(max-width: 767px)"
+			/>
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-tablet@1x-88ad0a70.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-tablet@2x-49fff36d.jpg 2x"
+				media="(max-width: 1199px)"
+			/>
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-nut-desctop@1x-1bbae235.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-nut-desctop@2x-3997e1c8.jpg 2x"
+				media="(min-width: 1200px)"
+			/>
+			<img
+				src="/HTML-CSS_84_777Roma777/assets/choco-nut-desctop@1x-1bbae235.jpg"
+				alt="picture of chocolate with nuts"
+				class="border"
+			/>
+		</picture>
+		<p class="top-sellers-content-mobile">
+			Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for
+			thousands of years and was first discovered by the Native American tribe called the Mayans.
+		</p>
+		<picture>
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-mobile@1x-f64bfd1c.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-mobile@2x-514f87e1.jpg 2x"
+				media="(max-width: 767px)"
+			/>
+
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-tablet@1x-df09263c.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-tablet@2x-9171563b.jpg 2x"
+				media="(max-width: 1199px)"
+			/>
+
+			<source
+				srcset="/HTML-CSS_84_777Roma777/assets/choco-mint-dectop@1x-ac8632fd.jpg 1x, /HTML-CSS_84_777Roma777/assets/choco-mint-dectop@2x-a8a44793.jpg 2x"
+				media="(min-width: 1200px)"
+			/>
+
+			<img
+				src="/HTML-CSS_84_777Roma777/assets/choco-mint-dectop@1x-ac8632fd.jpg"
+				alt="picture of chocolate with mint"
+				class="border"
+			/>
+		</picture>
+		<button class="buy-now-btn-mobile js-open-modal" data-modal="1" type="button"> Buy now </button>
+	</div>
+</section>
+<div class="overlay js-overlay-modal"></div>
+
+			<section class="review-section" id="chocolate-is-loved">
+	<div class="container">
+		<h2 class="reviews-title"><span>chocolate</span> is loved</h2>
+		<ul class="review-list">
+			<!-- Slides -->
+
+			<li class="review-item">
+				<img
+					class="coment-img"
+					srcset="/HTML-CSS_84_777Roma777/assets/commentator-1-6e8ce25f.png 1x, /HTML-CSS_84_777Roma777/assets/commentator-1-2x-b2b7955b.png 2x"
+					src="/HTML-CSS_84_777Roma777/assets/commentator-1-6e8ce25f.png"
+					alt="photo commentator"
+					
+				/>
+
+				<h3 class="person-name">Victoria Dobrzhanska</h3>
+				<p class="reviews-description">
+					I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.
+				</p>
+			</li>
+			<li class="review-item coment">
+				<img
+					class="coment-img"
+					srcset="/HTML-CSS_84_777Roma777/assets/commentator-2-941bee72.png 1x, /HTML-CSS_84_777Roma777/assets/commentator-2-2x-d3e23a7c.png 2x"
+					src="/HTML-CSS_84_777Roma777/assets/commentator-2-941bee72.png"
+					alt="photo commentator"
+					
+				/>
+
+				<h3 class="person-name">Nazar Babenko</h3>
+				<p class="reviews-description">
+					This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth,
+					and the chocolate is good.
+				</p>
+			</li>
+			<li class="review-item coment coment-secondary">
+				<img
+					class="coment-img"
+					srcset="/HTML-CSS_84_777Roma777/assets/commentator-3-b857cdab.png 1x, /HTML-CSS_84_777Roma777/assets/commentator-3-2x-3e3623da.png 2x"
+					src="/HTML-CSS_84_777Roma777/assets/commentator-3-b857cdab.png"
+					alt="photo commentator"
+					
+				/>
+
+				<h3 class="person-name">Olena Kampusch</h3>
+				<p class="reviews-description">
+					Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The
+					wafer is soft but crunchy.
+				</p>
+			</li>
+		</ul>
+		<button class="review-btn" type="button" data-review-open>Leave a review</button>
+	</div>
+</section>
+
+<!-- Modalka Review!!! -->
+<div class="backdrop is-hidden-review" data-review-backdrop>
+	<div class="modal-review">
+		<button data-review-close class="button-close-review" type="button">
+			<svg class="modal-review-svg" width="14px" height="14px">
+				<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-close-modalka"></use>
+			</svg>
+		</button>
+		<div class="container-review">
+			<h2 class="text-modal-review">
+				LEAVE A REVIEW <br />
+				ABOUT
+				<span class="second-part-text">OUR CHOCOLATE</span>
+			</h2>
+			<form class="review-form">
+				<label class="review-label"
+					><input type="text" name="name" class="input-review" placeholder="Name" required
+				/></label>
+
+				<label class="review-label"
+					><input type="email" name="email" class="input-review" placeholder="Email" required
+				/></label>
+				<label class="review-label">
+					<span class="review-tel">
+						<input type="tel" name="tel" class="input-review tel" placeholder="Phone number" required />
+						<span class="icons-review">
+							<svg class="review-ukraine">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-ukraine"></use>
+							</svg>
+							<span class="phone-start">+380</span>
+						</span>
+					</span>
+				</label>
+				<label class="review-label-textarea">
+					<textarea name="text" id="text" placeholder="Enter text" class="input-review-textarea"></textarea>
+				</label>
+				<button data-review-close type="submit" class="submit-form-review">Send</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<section class="subscribe-section">
+	<div class="container">
+		<div class="subscribe-block">
+			<h2 class="subscribe-section-heading">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+			<p class="subscribe-section-content"
+				>From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will leave
+				you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a
+				work of art that is sure to please.</p
+			>
+			<button type="button" class="subscribe-link" data-explore-open>Subscribe</button>
+		</div>
+	</div>
+</section>
+
+<div class="backdrop is-hidden" data-backdrop>
+	<div class="modal-explore">
+		<div class="modal-icon">
+			<button data-explore-close class="js-modal-close-svg" type="button">
+				<svg class="explore-svg" width="28" height="28">
+					<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-close-modalka"></use>
+				</svg>
+			</button>
+		</div>
+		<div class="position-explore">
+			<h3 class="modal-explore-title">Explore our<br /><span class="new-chocolate">new chocolate</span>first!</h3>
+
+			<form class="form-explore">
+				<div class="explore-modal-group">
+					<input class="explore-input" type="text" placeholder="Enter your email" />
+					<button data-explore-close class="modal-explore-type" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+		</main>
+
+		<footer class="footer-color" id="footer">
+	<div class="container">
+		<div class="footer-item-abovetheline">
+			<h2 class="footer-title">
+				<span class="footer-title-item">Chocolate </span>a delicious<br />cure for a bad day
+			</h2>
+			<div class="footer-item">
+				<div>
+					<h3 class="footer-contacts-title">Contact us</h3>
+					<ul class="footer-contacts">
+						<li class="footer-contacts-item">
+							<a href="tel:+380684439426" class="footer-phone">+380 (68) 443-94-26</a>
+						</li>
+						<li class="footer-contacts-item">
+							<a href="mailto:simplychoc@gmail.com" class="footer-mail">simplychoc@gmail.com</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="footer-social-media">
+					<li class="footer-socil-item">
+						<a href="https://www.instagram.com/" class="footer-social-link" target="_blank">
+							<svg class="social-media-icon">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-instagram-icon-mobile"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="footer-socil-item">
+						<a href="https://twitter.com/" class="footer-social-link" target="_blank">
+							<svg class="social-media-icon">
+								<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-twitter-icon"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr class="footer-line" />
+		<ul class="footer-nav-list">
+			<li class="footer-nav-link">
+				<a href="#home">Home</a>
+			</li>
+			<li class="footer-nav-link">
+				<a href="#how-its-made">How it's made?</a>
+			</li>
+			<li class="footer-nav-link">
+				<a href="#our-products">Our products</a>
+			</li>
+			<li class="footer-nav-link">
+				<a href="#top-sellers">Top sellers</a>
+			</li>
+			<li class="footer-nav-link">
+				<a href="#chocolate-is-loved">Chocolate is loved</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+
+		<!-- Modal loads -->
+		<div class="modal" data-modal="1">
+	<div>
+		<button class="btn modal-close-btn js-modal-close" data-modal="1" type="button">
+			<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path
+					d="M16.5 5.5L5.5 16.5"
+					stroke="url(#paint0_linear_34_4422)"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				<path
+					d="M5.5 5.5L16.5 16.5"
+					stroke="url(#paint1_linear_34_4422)"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				/>
+				<defs>
+					<linearGradient
+						id="paint0_linear_34_4422"
+						x1="11.0478"
+						y1="5.5"
+						x2="10.6719"
+						y2="16.4888"
+						gradientUnits="userSpaceOnUse"
+					>
+						
+						<stop offset="1" stop-color="#D44528" />
+					</linearGradient>
+					<linearGradient
+						id="paint1_linear_34_4422"
+						x1="11.0478"
+						y1="5.5"
+						x2="10.6719"
+						y2="16.4888"
+						gradientUnits="userSpaceOnUse"
+					>
+						<stop offset="1" stop-color="#D44528" />
+					</linearGradient>
+				</defs>
+			</svg>
+		</button>
+		<h2 class="order-heading">BUY <span class="now">NOW</span></h2>
+
+		<ul class="order-list">
+			<li class="order-item">
+				<picture>
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@1x-195cf892.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@2x-c369de64.png 2x"
+						media="(max-width: 767px)"
+					/>
+
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@1x-de4d37ed.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@2x-61df17ac.png 2x"
+						media="(max-width: 1199px)"
+					/>
+
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@1x-de4d37ed.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@2x-61df17ac.png 2x"
+						media="(min-width: 1200px)"
+					/>
+
+					<img
+						class="order-modal-picture"
+						src="/HTML-CSS_84_777Roma777/assets/order-milk-chocolate-@1x-de4d37ed.png"
+						alt=""
+					/>
+				</picture>
+
+				<select name="weight">
+					<option value="100g">100 g</option>
+					<option value="200g">200 g</option>
+					<option value="300g">300 g</option>
+				</select>
+			</li>
+
+			<li class="order-item">
+				<picture>
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@1x-bcef583c.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@2x-07fc2deb.png 2x"
+						media="(max-width: 767px)"
+					/>
+
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@1x-bac61d82.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@2x-b16655dd.png 2x"
+						media="(max-width: 1199px)"
+					/>
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@1x-bac61d82.png 1x, /HTML-CSS_84_777Roma777/assets/order-milk-white-chocolate@2x-b16655dd.png 2x"
+						media="(min-width: 1200px)"
+					/>
+					<img
+						class="order-modal-picture"
+						src="../img/section-top-sellers-images/order-modal-tablet0desctop/order-milk-white-chocolate@1x.png"
+						alt=""
+					/>
+				</picture>
+
+				<select name="weight">
+					<option value="100g">100 g</option>
+					<option value="200g">200 g</option>
+					<option value="300g">300 g</option>
+				</select>
+			</li>
+
+			<li class="order-item">
+				<picture>
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-bar-chocolate@1x-c4574fe7.png 1x, /HTML-CSS_84_777Roma777/assets/order-bar-chocolate@2x-596760f5.png 2x"
+						media="(max-width: 767px)"
+					/>
+
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-bar-chocolate@1x-396be75b.png 1x, /HTML-CSS_84_777Roma777/assets/order-bar-chocolate@2x-cca37a59.png 2x"
+						media="(max-width: 1199px)"
+					/>
+
+					<source
+						srcset="/HTML-CSS_84_777Roma777/assets/order-bar-chocolate@1x-396be75b.png 1x, /HTML-CSS_84_777Roma777/assets/order-bar-chocolate@2x-cca37a59.png 2x"
+						media="(min-width: 1200px)"
+					/>
+
+					<img
+						class="order-modal-picture"
+						src="/HTML-CSS_84_777Roma777/assets/order-bar-chocolate@1x-396be75b.png"
+						alt=""
+					/>
+				</picture>
+
+				<select name="weight">
+					<option value="100g">100 g</option>
+					<option value="200g">200 g</option>
+					<option value="300g">300 g</option>
+				</select>
+			</li>
+		</ul>
+	</div>
+
+	<!-- MODAL FORM-->
+
+	<form class="form">
+		<div class="form-field-personal">
+			<label class="first-name-label" for="first-name">Personal information</label>
+			<input
+				class="first-name-input"
+				type="text"
+				id="first-name"
+				name="first-name"
+				required
+				pattern="[A-Za-zА-Яа-ІіЇїЄє]{1,30}"
+				placeholder="Name"
+			/>
+			<input
+				class="last-name-input"
+				type="text"
+				id="last-name"
+				name="last-name"
+				required
+				pattern="[A-Za-zА-Яа-ІіЇїЄє]{1,30}"
+				placeholder="Surname"
+			/>
+		</div>
+
+		<div class="form-field-modal">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email" required />
+		</div>
+
+		<div class="form-field-modal">
+			<label for="tel">Phone number</label>
+			<div class="country-code">
+				<svg class="flag" width="32" height="24">
+					<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-ukraine"></use>
+				</svg>
+				<span class="code">+380</span>
+				<input class="phone" type="tel" id="tel" name="tel" placeholder="Phone number" required />
+			</div>
+		</div>
+
+		<div class="form-field-modal">
+			<label for="card">Card number</label>
+			<svg class="master-card-icon" width="44" height="30">
+				<use href="/HTML-CSS_84_777Roma777/assets/icons-67861462.svg#icon-mastercard"></use>
+			</svg>
+			<input type="text" id="card" name="card" placeholder="Enter card" required />
+		</div>
+
+		<div class="form-field-modal">
+			<label for="comments">Comment</label>
+			<textarea id="comments" name="comments" placeholder="Enter text" required></textarea>
+		</div>
+
+		<button class="modal-submit-btn js-modal-close" data-modal="1" type="submit"> Submit </button>
+	</form>
+</div>
+
+		<!-- <load src="partials/modal-review.html"> -->
+
+		<!-- our-products-slider -->
+
+		<!-- /our-products-slider -->
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		
+	</body>
+</html>
